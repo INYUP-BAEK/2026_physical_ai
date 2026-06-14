@@ -66,6 +66,18 @@ reports/v11_plus_stack_20000_stack_gif4/
 reports/v11_plus_stack_20000_lift_failgifs32/
 ```
 
+## 실제 로봇 데모
+
+MuJoCo rollout 이후 동일한 OpenVLA 서버 출력을 클라이언트에서 받아 실제 RaccoonBot에 전달하여 동작을 확인했습니다.
+
+### V11 Lift 실제 로봇
+
+![V11 Lift 실제 로봇 데모](reports/lift.gif)
+
+### V11+Stack 실제 로봇
+
+![V11+Stack 실제 로봇 데모](reports/stack.gif)
+
 ## 실행 방법
 
 ### 1. V11 Lift 에피소드 생성
