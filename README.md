@@ -26,7 +26,7 @@
 openvla/openvla-adapter-tmp/...--v11-initial-lift-close-1200eps-15000steps-b8ga2--image_aug--15000_chkpt
 ```
 
-MuJoCo closed-loop rollout 결과입니다.
+MuJoCo closed-loop rollout 결과
 
 | 평가 항목 | 결과 |
 |---|---:|
@@ -35,15 +35,35 @@ MuJoCo closed-loop rollout 결과입니다.
 | 32 rollout strict lift 성공 | 25/32 |
 | 32 rollout wrong-color touch | 2/32 |
 
-대표 rollout GIF와 결과 그래프입니다.
+#### 성공 예시
 
-![V11 Lift yellow rollout](reports/v11_initial_lift_close_1200_b8ga2_15000_gif4/v11_initial_lift_close_1200_b8ga2_15000_gif4_episode_0001_yellow.gif)
+**Yellow 목표 성공**
 
-![V11 Lift red rollout](reports/v11_initial_lift_close_1200_b8ga2_15000_gif4/v11_initial_lift_close_1200_b8ga2_15000_gif4_episode_0002_red.gif)
+![V11 Lift yellow success](reports/v11_initial_lift_close_1200_b8ga2_15000_gif4/v11_initial_lift_close_1200_b8ga2_15000_gif4_episode_0001_yellow.gif)
 
-![V11 Lift green rollout](reports/v11_initial_lift_close_1200_b8ga2_15000_gif4/v11_initial_lift_close_1200_b8ga2_15000_gif4_episode_0003_green.gif)
+**Red 목표 성공**
 
-![V11 Lift blue rollout](reports/v11_initial_lift_close_1200_b8ga2_15000_gif4/v11_initial_lift_close_1200_b8ga2_15000_gif4_episode_0004_blue.gif)
+![V11 Lift red success](reports/v11_initial_lift_close_1200_b8ga2_15000_gif4/v11_initial_lift_close_1200_b8ga2_15000_gif4_episode_0002_red.gif)
+
+**Green 목표 성공**
+
+![V11 Lift green success](reports/v11_initial_lift_close_1200_b8ga2_15000_gif4/v11_initial_lift_close_1200_b8ga2_15000_gif4_episode_0003_green.gif)
+
+**Blue 목표 성공**
+
+![V11 Lift blue success](reports/v11_initial_lift_close_1200_b8ga2_15000_gif4/v11_initial_lift_close_1200_b8ga2_15000_gif4_episode_0004_blue.gif)
+
+#### 실패 및 한계 예시
+
+**Blue 목표: gripper/lift 실패**
+
+![V11 Lift blue grip/lift failure](reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0014_blue.gif)
+
+**Red 목표: wrong-color touch 실패**
+
+![V11 Lift red wrong-color touch failure](reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0032_red.gif)
+
+#### 정량 결과 그래프
 
 ![V11 Lift 100 rollout outcome categories](reports/v11_final_baseline_assets/v11_rollout100_outcome_categories.png)
 
@@ -51,13 +71,13 @@ MuJoCo closed-loop rollout 결과입니다.
 
 ### V11+Stack
 
-로컬에서 사용한 stack 확장 adapter는 다음 형태의 경로에 있습니다.
+로컬에서 사용한 stack 확장 adapter 경로
 
 ```text
 openvla/openvla-adapter-tmp/...--v11-plus-stack-close-boost-stack120-1320eps-20000steps-save5000--image_aug--20000_chkpt
 ```
 
-MuJoCo closed-loop rollout 결과입니다.
+MuJoCo closed-loop rollout 결과.
 
 | 평가 항목 | 결과 |
 |---|---:|
@@ -66,23 +86,39 @@ MuJoCo closed-loop rollout 결과입니다.
 | stack command source lift 성공 | 9/12 |
 | stack command final gripper open | 7/12 |
 
-대표 stack rollout GIF와 실패 분석 GIF입니다.
+#### 성공 예시
 
-![V11+Stack red on blue rollout](reports/v11_plus_stack_20000_stack_gif4/v11_plus_stack_20000_stack_gif4_episode_0001_red_on_blue.gif)
+**Red on Yellow: strict stack 성공**
 
-![V11+Stack red on yellow rollout](reports/v11_plus_stack_20000_stack_gif4/v11_plus_stack_20000_stack_gif4_episode_0002_red_on_yellow.gif)
+![V11+Stack red on yellow success](reports/v11_plus_stack_20000_stack_gif4/v11_plus_stack_20000_stack_gif4_episode_0002_red_on_yellow.gif)
 
-![V11+Stack yellow on blue rollout](reports/v11_plus_stack_20000_stack_gif4/v11_plus_stack_20000_stack_gif4_episode_0003_yellow_on_blue.gif)
+**Blue on Yellow: strict stack 성공**
 
-![V11+Stack blue on yellow rollout](reports/v11_plus_stack_20000_stack_gif4/v11_plus_stack_20000_stack_gif4_episode_0004_blue_on_yellow.gif)
+![V11+Stack blue on yellow success](reports/v11_plus_stack_20000_stack_gif4/v11_plus_stack_20000_stack_gif4_episode_0004_blue_on_yellow.gif)
 
-![V11+Stack lift failure example green](reports/v11_plus_stack_20000_lift_failgifs32/v11_plus_stack_20000_lift_failgifs32_episode_0003_green.gif)
+#### 실패 및 부분 성공 예시
 
-![V11+Stack lift failure example red](reports/v11_plus_stack_20000_lift_failgifs32/v11_plus_stack_20000_lift_failgifs32_episode_0015_red.gif)
+**Red on Blue: source grasp/lift 실패**
+
+![V11+Stack red on blue no-source-grasp failure](reports/v11_plus_stack_20000_stack_gif4/v11_plus_stack_20000_stack_gif4_episode_0001_red_on_blue.gif)
+
+**Yellow on Blue: 들어올림은 성공했지만 release 실패**
+
+![V11+Stack yellow on blue on-top-but-not-released partial success](reports/v11_plus_stack_20000_stack_gif4/v11_plus_stack_20000_stack_gif4_episode_0003_yellow_on_blue.gif)
+
+#### Lift command 실패 예시
+
+**Red 목표: lift command 실패**
+
+![V11+Stack red lift failure](reports/v11_plus_stack_20000_lift_failgifs32/v11_plus_stack_20000_lift_failgifs32_episode_0015_red.gif)
+
+**Green 목표: lift command 실패**
+
+![V11+Stack green lift failure](reports/v11_plus_stack_20000_lift_failgifs32/v11_plus_stack_20000_lift_failgifs32_episode_0003_green.gif)
 
 ## 실제 로봇 데모
 
-MuJoCo rollout 이후 동일한 OpenVLA 서버 출력을 클라이언트에서 받아 실제 RaccoonBot에 전달하여 동작을 확인했습니다.
+MuJoCo rollout 이후 동일한 OpenVLA 서버 출력을 클라이언트에서 받아 실제 RaccoonBot 동작 확인
 
 ### V11 Lift 실제 로봇
 
