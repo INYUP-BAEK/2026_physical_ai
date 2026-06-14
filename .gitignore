@@ -1,0 +1,62 @@
+# Python / runtime caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local environments and package metadata
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Hugging Face / experiment caches
+.hf_cache/
+hf_cache/
+wandb/
+*.tfevents*
+events.out.tfevents*
+
+# Large generated datasets: do not upload to GitHub
+tensorflow_datasets/
+Mujoco/raccoon_grasp_v*/
+Mujoco/raccoon_stack_v*/
+Mujoco/raccoon_dataset/openvla_rlds_intermediate*/
+Mujoco/raccoon_dataset/_tmp*/
+Mujoco/raccoon_dataset/tmp*/
+
+# Model checkpoints and large model artifacts: do not upload to GitHub
+openvla/openvla-adapter-tmp/
+openvla/openvla-runs/
+openvla/openvla-runs-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+
+# Local rollout outputs produced by client-side runs
+rollout_outputs/
+client/rollout_outputs/
+/data/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Keep these submission artifacts tracked:
+# - README.md
+# - report.pdf / report.md
+# - docs/
+# - scripts/
+# - modified source files
+# - selected logs/
+# - selected reports/ visualizations

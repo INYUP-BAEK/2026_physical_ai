@@ -1,0 +1,33 @@
+episode_index,scene_id,target_color,instruction,num_steps,exception,ever_contact_success,ever_strict_lift_success,final_contact_success,final_strict_lift_success,ever_wrong_color_touch,target_lift_delta_final,first_contact_step,first_strict_lift_step,final_touching_colors
+1,1,yellow,grasp only the yellow cylinder,37,,True,True,True,True,True,0.011837944388389587,30,34,"[""yellow""]"
+2,1,red,grasp the red cylinder,43,,True,True,True,True,False,0.011733043007552624,36,40,"[""red""]"
+3,1,green,grab the green cylinder,50,,False,False,False,False,False,0.030810323543846607,,,"[""green""]"
+4,1,blue,take hold of the blue cylinder,34,,True,True,True,True,False,0.01158840861171484,27,31,"[""blue""]"
+5,2,blue,pick up and hold the blue cylinder,50,,False,False,False,False,False,0.00012050289660692215,,,[]
+6,2,yellow,lift the yellow cylinder,50,,False,False,False,False,False,0.00012050289660692215,,,[]
+7,2,green,grab the green cylinder,38,,True,True,True,True,False,0.012010314501821995,31,35,"[""green""]"
+8,2,red,grasp the red cylinder,35,,True,True,True,True,False,0.011805123649537563,29,32,"[""red""]"
+9,3,yellow,grasp and lift the yellow cylinder,36,,True,True,True,True,False,0.012532341293990612,28,33,"[""yellow""]"
+10,3,red,pick up only the red cylinder,43,,True,True,True,True,False,0.012283229269087315,36,40,"[""red""]"
+11,3,green,raise the green cylinder,50,,False,False,False,False,False,0.00012050289660692215,,,[]
+12,3,blue,move to the blue cylinder and lift it,38,,True,True,True,True,False,0.014136659912765026,31,35,"[""blue""]"
+13,4,yellow,grab and lift the yellow cylinder,37,,True,True,True,True,False,0.01414643507450819,29,34,"[""yellow""]"
+14,4,blue,grab the blue cylinder,50,,False,False,False,False,False,0.00012050289660692215,,,[]
+15,4,red,take hold of the red cylinder,50,,False,False,False,False,False,0.00012050289660692215,,,[]
+16,4,green,pick up the green cylinder,50,,False,False,False,False,False,0.0002528419718146324,,,[]
+17,5,green,lift the green cylinder without touching the others,50,,False,False,False,False,False,5.893222987651825e-05,,,[]
+18,5,yellow,pick up only the yellow cylinder,46,,True,True,True,True,False,0.014720809645950794,38,43,"[""yellow""]"
+19,5,red,lift and hold the red cylinder,50,,False,False,False,False,False,-4.395283758640289e-05,,,[]
+20,5,blue,pick up the cylinder that is blue,34,,True,True,True,True,True,0.011515098623931408,27,31,"[""blue""]"
+21,6,green,grab the green cylinder,50,,False,False,False,False,False,0.00012050289660692215,,,[]
+22,6,red,grasp and lift the red cylinder,50,,False,False,False,False,False,0.00012050289660692215,,,[]
+23,6,yellow,lift the yellow cylinder without touching the others,50,,False,False,False,False,False,0.00012050289660692215,,,[]
+24,6,blue,pick up the blue cylinder,35,,True,True,True,True,False,0.01447828859090805,28,32,"[""blue""]"
+25,7,red,move to the red cylinder and lift it,50,,False,False,False,False,False,0.0004616975784301758,,,[]
+26,7,green,grab and lift the green cylinder,50,,False,False,False,False,False,0.03372900653630495,,,"[""green""]"
+27,7,blue,grab the blue cylinder,50,,True,False,True,False,False,0.0005645239725708961,49,,"[""blue""]"
+28,7,yellow,take hold of the yellow cylinder,50,,True,True,True,True,True,0.010719620622694492,44,49,"[""yellow""]"
+29,8,green,pick up only the green cylinder,50,,False,False,False,False,False,0.00012050289660692215,,,[]
+30,8,yellow,lift the yellow cylinder,34,,True,True,True,True,False,0.012151160277426243,27,31,"[""yellow""]"
+31,8,blue,lift the blue cylinder without touching the others,36,,True,True,True,True,False,0.012298869900405407,29,33,"[""blue""]"
+32,8,red,pick up the cylinder that is red,50,,False,False,False,False,False,0.00012050289660692215,,,[]

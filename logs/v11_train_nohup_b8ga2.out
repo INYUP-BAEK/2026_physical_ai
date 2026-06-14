@@ -1,0 +1,151 @@
+nohup: ignoring input
+VLA_PATH=/root/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f
+HF_HOME=/data/biy/Raccoonbot_Openvla/.hf_cache
+RUN_ID_NOTE=v11-initial-lift-close-1200eps-15000steps-b8ga2
+LORA_RANK=32
+LORA_DROPOUT=0.0
+BATCH_SIZE=8
+GRAD_ACCUMULATION_STEPS=2
+LEARNING_RATE=5e-4
+IMAGE_AUG=true
+SHUFFLE_BUFFER_SIZE=100000
+MAX_STEPS=15000
+SAVE_STEPS=2500
+MERGE_LORA_CHECKPOINT=false
+SAVE_LATEST_CHECKPOINT_ONLY=false
+[2026-06-12 04:14:56,307] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+/usr/local/lib/python3.8/dist-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+2026-06-12 04:14:59.122538: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 04:14:59.889554: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Fine-tuning OpenVLA Model `/root/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f` on `raccoon_pick_place`
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  3.83it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  4.34it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  4.64it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  4.49it/s]
+06/12 [04:15:18] ERROR    | >> Could not load bitsandbytes      cextension.py:88
+                          native library: libcusparse.so.12:                    
+                          cannot open shared object file: No                    
+                          such file or directory                                
+                          ╭─ Traceback (most recent call last─╮                 
+                          │ /usr/local/lib/python3.8/dist-pac │                 
+                          │ kages/bitsandbytes/cextension.py: │                 
+                          │ 85 in <module>                    │                 
+                          │                                   │                 
+                          │    82                             │                 
+                          │    83                             │                 
+                          │    84 try:                        │                 
+                          │ ❱  85 │   lib = get_native_librar │                 
+                          │    86 except Exception as e:      │                 
+                          │    87 │   lib = None              │                 
+                          │    88 │   logger.error(f"Could no │                 
+                          │                                   │                 
+                          │ /usr/local/lib/python3.8/dist-pac │                 
+                          │ kages/bitsandbytes/cextension.py: │                 
+                          │ 72 in get_native_library          │                 
+                          │                                   │                 
+                          │    69 │   │   else:               │                 
+                          │    70 │   │   │   logger.warning( │                 
+                          │       cuda_binary_path)           │                 
+                          │    71 │   logger.debug(f"Loading  │                 
+                          │ ❱  72 │   dll = ct.cdll.LoadLibra │                 
+                          │    73 │                           │                 
+                          │    74 │   if hasattr(dll, "get_co │                 
+                          │    75 │   │   return CudaBNBNativ │                 
+                          │                                   │                 
+                          │ /usr/lib/python3.8/ctypes/__init_ │                 
+                          │ _.py:451 in LoadLibrary           │                 
+                          │                                   │                 
+                          │   448 │   │   return getattr(self │                 
+                          │   449 │                           │                 
+                          │   450 │   def LoadLibrary(self, n │                 
+                          │ ❱ 451 │   │   return self._dlltyp │                 
+                          │   452                             │                 
+                          │   453 cdll = LibraryLoader(CDLL)  │                 
+                          │   454 pydll = LibraryLoader(PyDLL │                 
+                          │                                   │                 
+                          │ /usr/lib/python3.8/ctypes/__init_ │                 
+                          │ _.py:373 in __init__              │                 
+                          │                                   │                 
+                          │   370 │   │   self._FuncPtr = _Fu │                 
+                          │   371 │   │                       │                 
+                          │   372 │   │   if handle is None:  │                 
+                          │ ❱ 373 │   │   │   self._handle =  │                 
+                          │   374 │   │   else:               │                 
+                          │   375 │   │   │   self._handle =  │                 
+                          │   376                             │                 
+                          ╰───────────────────────────────────╯                 
+                          OSError: libcusparse.so.12: cannot                    
+                          open shared object file: No such file                 
+                          or directory                                          
+                 WARNING  | >>                                  cextension.py:90
+                          CUDA Setup failed despite CUDA being                  
+                          available. Please run the following                   
+                          command to get more information:                      
+                                                                                
+                          python -m bitsandbytes                                
+                                                                                
+                          Inspect the output of the command and                 
+                          see if you can locate CUDA libraries.                 
+                          You might need to add them                            
+                          to your LD_LIBRARY_PATH. If you                       
+                          suspect a bug, please take the                        
+                          information from python -m                            
+                          bitsandbytes                                          
+                          and open an issue at:                                 
+                          https://github.com/bitsandbytes-found                 
+                          ation/bitsandbytes/issues                             
+                                                                                
+trainable params: 110,828,288 || all params: 7,652,065,472 || trainable%: 1.4483
+2026-06-12 04:15:22.606177: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+06/12 [04:15:23] INFO     | >> [*] Computing dataset           data_utils.py:233
+                          statistics. This may take a bit, but                  
+                          should only need to happen once.                      
+  0%|          | 0/1200 [00:00<?, ?it/s]  0%|          | 1/1200 [00:00<03:00,  6.66it/s] 12%|█▏        | 148/1200 [00:00<00:01, 719.89it/s] 30%|███       | 360/1200 [00:00<00:00, 1293.98it/s] 65%|██████▍   | 779/1200 [00:00<00:00, 2363.29it/s]100%|██████████| 1200/1200 [00:00<00:00, 2243.64it/s]
+2026-06-12 04:15:23.918877: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+
+######################################################################################
+# Loading the following 1 datasets (incl. sampling weight):                         #
+# raccoon_pick_place: ======================================================1.000000 #
+######################################################################################
+
+06/12 [04:15:24] INFO     | >> [*] Threads per Dataset: [1]       dataset.py:552
+                 INFO     | >> [*] Reads per Dataset: [1]         dataset.py:553
+                 INFO     | >> [*] Constructing datasets...       dataset.py:556
+2026-06-12 04:15:24.775051: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+06/12 [04:15:25] INFO     | >> [*] Applying frame transforms on   dataset.py:596
+                          dataset...                                            
+06/12 [04:15:26] INFO     | >> [*] Saved dataset statistics    data_utils.py:294
+                          file at path                                          
+                          /data/biy/Raccoonbot_Openvla/openvla                  
+                          /openvla-runs/47a0ec7fc4ec123775a391                  
+                          911046cf33cf9ed83f+raccoon_pick_plac                  
+                          e+b16+lr-0.0005+lora-r32+dropout-0.0                  
+                          --v11-initial-lift-close-1200eps-150                  
+                          00steps-b8ga2--image_aug/dataset_sta                  
+                          tistics.json                                          
+wandb: WARNING Metadata is read-only when using pydantic v1.
+  0%|          | 0/15000 [00:00<?, ?it/s]2026-06-12 04:15:26.811872: W tensorflow/core/grappler/costs/op_level_cost_estimator.cc:693] Error in PredictCost() for the op: op: "CropAndResize" attr { key: "T" value { type: DT_FLOAT } } attr { key: "extrapolation_value" value { f: 0 } } attr { key: "method" value { s: "bilinear" } } inputs { dtype: DT_FLOAT shape { dim { size: 1 } dim { size: 224 } dim { size: 224 } dim { size: -7 } } } inputs { dtype: DT_FLOAT shape { dim { size: -2 } dim { size: 4 } } } inputs { dtype: DT_INT32 shape { dim { size: -2 } } } inputs { dtype: DT_INT32 shape { dim { size: 2 } } } device { type: "CPU" vendor: "AuthenticAMD" model: "241" frequency: 2245 num_cores: 128 environment { key: "cpu_instruction_set" value: "AVX SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2" } environment { key: "eigen" value: "3.4.90" } l1_cache_size: 32768 l2_cache_size: 524288 l3_cache_size: 268435456 memory_size: 268435456 } outputs { dtype: DT_FLOAT shape { dim { size: -2 } dim { size: -8 } dim { size: -9 } dim { size: -7 } } }
+2026-06-12 04:15:26.812046: W tensorflow/core/grappler/costs/op_level_cost_estimator.cc:693] Error in PredictCost() for the op: op: "CropAndResize" attr { key: "T" value { type: DT_FLOAT } } attr { key: "extrapolation_value" value { f: 0 } } attr { key: "method" value { s: "bilinear" } } inputs { dtype: DT_FLOAT shape { dim { size: 1 } dim { size: 224 } dim { size: 224 } dim { size: -6 } } } inputs { dtype: DT_FLOAT shape { dim { size: -3 } dim { size: 4 } } } inputs { dtype: DT_INT32 shape { dim { size: -3 } } } inputs { dtype: DT_INT32 shape { dim { size: 2 } } } device { type: "CPU" vendor: "AuthenticAMD" model: "241" frequency: 2245 num_cores: 128 environment { key: "cpu_instruction_set" value: "AVX SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2" } environment { key: "eigen" value: "3.4.90" } l1_cache_size: 32768 l2_cache_size: 524288 l3_cache_size: 268435456 memory_size: 268435456 } outputs { dtype: DT_FLOAT shape { dim { size: -3 } dim { size: -10 } dim { size: -11 } dim { size: -6 } } }
+  0%|          | 1/15000 [00:05<21:08:15,  5.07s/it]  0%|          | 2/15000 [00:06<12:30:58,  3.00s/it]  0%|          | 3/15000 [00:08<9:40:26,  2.32s/it]   0%|          | 4/15000 [00:09<8:18:41,  2.00s/it]  0%|          | 5/15000 [00:11<7:33:55,  1.82s/it]  0%|          | 6/15000 [00:12<7:07:35,  1.71s/it]  0%|          | 7/15000 [00:14<6:49:39,  1.64s/it]  0%|          | 8/15000 [00:15<6:37:47,  1.59s/it]  0%|          | 9/15000 [00:17<6:30:58,  1.56s/it]  0%|          | 10/15000 [00:18<6:26:23,  1.55s/it]  0%|          | 11/15000 [00:20<6:24:03,  1.54s/it]  0%|          | 12/15000 [00:21<6:20:24,  1.52s/it]  0%|          | 13/15000 [00:23<6:19:12,  1.52s/it]  0%|          | 14/15000 [00:24<6:18:10,  1.51s/it]  0%|          | 15/15000 [00:26<6:18:33,  1.52s/it]  0%|          | 16/15000 [00:27<6:18:10,  1.51s/it]  0%|          | 17/15000 [00:29<6:17:18,  1.51s/it]  0%|          | 18/15000 [00:30<6:16:34,  1.51s/it]  0%|          | 19/15000 [00:32<6:16:42,  1.51s/it]  0%|          | 20/15000 [00:33<6:16:05,  1.51s/it]  0%|          | 21/15000 [00:35<6:15:39,  1.50s/it]  0%|          | 22/15000 [00:36<6:14:44,  1.50s/it]  0%|          | 23/15000 [00:38<6:14:12,  1.50s/it]  0%|          | 24/15000 [00:39<6:14:05,  1.50s/it]  0%|          | 25/15000 [00:41<6:13:47,  1.50s/it]  0%|          | 26/15000 [00:42<6:15:23,  1.50s/it]  0%|          | 27/15000 [00:44<6:15:59,  1.51s/it]  0%|          | 28/15000 [00:45<6:18:59,  1.52s/it]  0%|          | 29/15000 [00:47<6:18:09,  1.52s/it][2026-06-12 04:16:14,957] torch.distributed.elastic.agent.server.api: [WARNING] Received Signals.SIGHUP death signal, shutting down workers
+[2026-06-12 04:16:14,958] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 247656 closing signal SIGHUP
+Traceback (most recent call last):
+  File "/usr/local/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 346, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/run.py", line 806, in main
+    run(args)
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/run.py", line 797, in run
+    elastic_launch(
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/launcher/api.py", line 255, in launch_agent
+    result = agent.run()
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/elastic/metrics/api.py", line 124, in wrapper
+    result = f(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/elastic/agent/server/api.py", line 736, in run
+    result = self._invoke_run(role)
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/elastic/agent/server/api.py", line 877, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/elastic/multiprocessing/api.py", line 62, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 247577 got signal: 1

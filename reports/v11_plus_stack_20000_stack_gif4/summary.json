@@ -1,0 +1,106 @@
+{
+  "num_rollouts": 4,
+  "final_strict_stack_success_count": 2,
+  "final_strict_stack_success_rate": 0.5,
+  "ever_source_contact_success_count": 3,
+  "ever_source_contact_success_rate": 0.75,
+  "ever_source_lift_success_count": 3,
+  "ever_source_lift_success_rate": 0.75,
+  "final_gripper_open_count": 3,
+  "final_gripper_open_rate": 0.75,
+  "non_source_robot_touch_count": 0,
+  "non_source_robot_touch_rate": 0.0,
+  "base_robot_touch_count": 0,
+  "base_robot_touch_rate": 0.0,
+  "exception_count": 0,
+  "mean_final_stack_xy_distance": 0.020705973955588743,
+  "median_final_stack_xy_distance": 0.009687838139791443,
+  "mean_final_stack_z_delta": 0.022612085565924644,
+  "median_final_stack_z_delta": 0.02006395347416401,
+  "mean_source_lift_delta_final": 0.02272884640842676,
+  "mean_steps": 92.25,
+  "failure_class_counts": {
+    "no_source_grasp_or_lift": 1,
+    "strict_stack_success_clean": 2,
+    "on_top_but_not_released": 1
+  },
+  "instruction_counts": {
+    "stack the red cylinder on the blue cylinder": 1,
+    "stack the red cylinder on the yellow cylinder": 1,
+    "stack the yellow cylinder on the blue cylinder": 1,
+    "stack the blue cylinder on the yellow cylinder": 1
+  },
+  "by_source_color": {
+    "blue": {
+      "n": 1,
+      "final_strict_stack_success_rate": 1.0,
+      "ever_source_lift_success_rate": 1.0,
+      "mean_final_stack_xy_distance": 0.00449795432922082,
+      "mean_final_stack_z_delta": 0.020067199133336544
+    },
+    "red": {
+      "n": 2,
+      "final_strict_stack_success_rate": 0.5,
+      "ever_source_lift_success_rate": 0.5,
+      "mean_final_stack_xy_distance": 0.03414591637516941,
+      "mean_final_stack_z_delta": 0.010030353907495737
+    },
+    "yellow": {
+      "n": 1,
+      "final_strict_stack_success_rate": 0.0,
+      "ever_source_lift_success_rate": 1.0,
+      "mean_final_stack_xy_distance": 0.010034108742795339,
+      "mean_final_stack_z_delta": 0.05032043531537056
+    }
+  },
+  "by_base_color": {
+    "blue": {
+      "n": 2,
+      "final_strict_stack_success_rate": 0.0,
+      "ever_source_lift_success_rate": 0.5,
+      "mean_final_stack_xy_distance": 0.0344921869781733,
+      "mean_final_stack_z_delta": 0.02516021765768528
+    },
+    "yellow": {
+      "n": 2,
+      "final_strict_stack_success_rate": 1.0,
+      "ever_source_lift_success_rate": 1.0,
+      "mean_final_stack_xy_distance": 0.006919760933004183,
+      "mean_final_stack_z_delta": 0.02006395347416401
+    }
+  },
+  "by_pair": {
+    "blue_on_yellow": {
+      "n": 1,
+      "final_strict_stack_success_rate": 1.0,
+      "ever_source_lift_success_rate": 1.0,
+      "failure_class_counts": {
+        "strict_stack_success_clean": 1
+      }
+    },
+    "red_on_blue": {
+      "n": 1,
+      "final_strict_stack_success_rate": 0.0,
+      "ever_source_lift_success_rate": 0.0,
+      "failure_class_counts": {
+        "no_source_grasp_or_lift": 1
+      }
+    },
+    "red_on_yellow": {
+      "n": 1,
+      "final_strict_stack_success_rate": 1.0,
+      "ever_source_lift_success_rate": 1.0,
+      "failure_class_counts": {
+        "strict_stack_success_clean": 1
+      }
+    },
+    "yellow_on_blue": {
+      "n": 1,
+      "final_strict_stack_success_rate": 0.0,
+      "ever_source_lift_success_rate": 1.0,
+      "failure_class_counts": {
+        "on_top_but_not_released": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "num_rollouts": 4,
+  "ever_contact_success_count": 4,
+  "ever_contact_success_rate": 1.0,
+  "ever_strict_lift_success_count": 4,
+  "ever_strict_lift_success_rate": 1.0,
+  "final_contact_success_count": 4,
+  "final_contact_success_rate": 1.0,
+  "final_strict_lift_success_count": 4,
+  "final_strict_lift_success_rate": 1.0,
+  "wrong_color_touch_count": 0,
+  "wrong_color_touch_rate": 0.0,
+  "exception_count": 0,
+  "mean_final_lift_delta": 0.012190513545647264,
+  "median_final_lift_delta": 0.012196118012070656,
+  "mean_steps": 36.5,
+  "by_color": {
+    "blue": {
+      "n": 1,
+      "ever_contact_success_rate": 1.0,
+      "ever_strict_lift_success_rate": 1.0,
+      "final_strict_lift_success_rate": 1.0,
+      "wrong_color_touch_rate": 0.0,
+      "mean_final_lift_delta": 0.012157068587839603
+    },
+    "green": {
+      "n": 1,
+      "ever_contact_success_rate": 1.0,
+      "ever_strict_lift_success_rate": 1.0,
+      "final_strict_lift_success_rate": 1.0,
+      "wrong_color_touch_rate": 0.0,
+      "mean_final_lift_delta": 0.012120424769818783
+    },
+    "red": {
+      "n": 1,
+      "ever_contact_success_rate": 1.0,
+      "ever_strict_lift_success_rate": 1.0,
+      "final_strict_lift_success_rate": 1.0,
+      "wrong_color_touch_rate": 0.0,
+      "mean_final_lift_delta": 0.012235167436301708
+    },
+    "yellow": {
+      "n": 1,
+      "ever_contact_success_rate": 1.0,
+      "ever_strict_lift_success_rate": 1.0,
+      "final_strict_lift_success_rate": 1.0,
+      "wrong_color_touch_rate": 0.0,
+      "mean_final_lift_delta": 0.01224939338862896
+    }
+  },
+  "instruction_counts": {
+    "grasp only the yellow cylinder": 1,
+    "grasp the red cylinder": 1,
+    "grab the green cylinder": 1,
+    "take hold of the blue cylinder": 1
+  }
+}

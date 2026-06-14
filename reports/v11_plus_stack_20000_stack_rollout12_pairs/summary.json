@@ -1,0 +1,199 @@
+{
+  "num_rollouts": 12,
+  "final_strict_stack_success_count": 4,
+  "final_strict_stack_success_rate": 0.3333333333333333,
+  "ever_source_contact_success_count": 9,
+  "ever_source_contact_success_rate": 0.75,
+  "ever_source_lift_success_count": 9,
+  "ever_source_lift_success_rate": 0.75,
+  "final_gripper_open_count": 7,
+  "final_gripper_open_rate": 0.5833333333333334,
+  "non_source_robot_touch_count": 0,
+  "non_source_robot_touch_rate": 0.0,
+  "base_robot_touch_count": 0,
+  "base_robot_touch_rate": 0.0,
+  "exception_count": 0,
+  "mean_final_stack_xy_distance": 0.020775879590945633,
+  "median_final_stack_xy_distance": 0.007499302796794737,
+  "mean_final_stack_z_delta": 0.02830990943281601,
+  "median_final_stack_z_delta": 0.020064777694642544,
+  "mean_source_lift_delta_final": 0.028521025514540572,
+  "mean_steps": 96.66666666666667,
+  "failure_class_counts": {
+    "no_source_grasp_or_lift": 3,
+    "strict_stack_success_clean": 4,
+    "on_top_but_not_released": 5
+  },
+  "instruction_counts": {
+    "stack the red cylinder on the blue cylinder": 1,
+    "stack the red cylinder on the yellow cylinder": 1,
+    "stack the yellow cylinder on the blue cylinder": 1,
+    "stack the blue cylinder on the yellow cylinder": 1,
+    "stack the blue cylinder on the green cylinder": 1,
+    "stack the green cylinder on the blue cylinder": 1,
+    "stack the green cylinder on the yellow cylinder": 1,
+    "stack the red cylinder on the green cylinder": 1,
+    "stack the green cylinder on the red cylinder": 1,
+    "stack the yellow cylinder on the red cylinder": 1,
+    "stack the blue cylinder on the red cylinder": 1,
+    "stack the yellow cylinder on the green cylinder": 1
+  },
+  "by_source_color": {
+    "blue": {
+      "n": 3,
+      "final_strict_stack_success_rate": 0.3333333333333333,
+      "ever_source_lift_success_rate": 1.0,
+      "mean_final_stack_xy_distance": 0.002801827326064004,
+      "mean_final_stack_z_delta": 0.035524385360380016
+    },
+    "green": {
+      "n": 3,
+      "final_strict_stack_success_rate": 0.3333333333333333,
+      "ever_source_lift_success_rate": 0.3333333333333333,
+      "mean_final_stack_xy_distance": 0.047537604221814966,
+      "mean_final_stack_z_delta": 0.0057035875506699085
+    },
+    "red": {
+      "n": 3,
+      "final_strict_stack_success_rate": 0.6666666666666666,
+      "ever_source_lift_success_rate": 0.6666666666666666,
+      "mean_final_stack_xy_distance": 0.025154926262240963,
+      "mean_final_stack_z_delta": 0.01337435469031334
+    },
+    "yellow": {
+      "n": 3,
+      "final_strict_stack_success_rate": 0.0,
+      "ever_source_lift_success_rate": 1.0,
+      "mean_final_stack_xy_distance": 0.007609160553662609,
+      "mean_final_stack_z_delta": 0.058637310129900776
+    }
+  },
+  "by_base_color": {
+    "blue": {
+      "n": 3,
+      "final_strict_stack_success_rate": 0.3333333333333333,
+      "ever_source_lift_success_rate": 0.6666666666666666,
+      "mean_final_stack_xy_distance": 0.025580621518724308,
+      "mean_final_stack_z_delta": 0.02342784528930982
+    },
+    "green": {
+      "n": 3,
+      "final_strict_stack_success_rate": 0.3333333333333333,
+      "ever_source_lift_success_rate": 1.0,
+      "mean_final_stack_xy_distance": 0.004797878054634851,
+      "mean_final_stack_z_delta": 0.048987433003882565
+    },
+    "red": {
+      "n": 3,
+      "final_strict_stack_success_rate": 0.0,
+      "ever_source_lift_success_rate": 0.6666666666666666,
+      "mean_final_stack_xy_distance": 0.028270149165976106,
+      "mean_final_stack_z_delta": 0.02744839045529564
+    },
+    "yellow": {
+      "n": 3,
+      "final_strict_stack_success_rate": 0.6666666666666666,
+      "ever_source_lift_success_rate": 0.6666666666666666,
+      "mean_final_stack_xy_distance": 0.024454869624447272,
+      "mean_final_stack_z_delta": 0.013375968982776007
+    }
+  },
+  "by_pair": {
+    "blue_on_green": {
+      "n": 1,
+      "final_strict_stack_success_rate": 0.0,
+      "ever_source_lift_success_rate": 1.0,
+      "failure_class_counts": {
+        "on_top_but_not_released": 1
+      }
+    },
+    "blue_on_red": {
+      "n": 1,
+      "final_strict_stack_success_rate": 0.0,
+      "ever_source_lift_success_rate": 1.0,
+      "failure_class_counts": {
+        "on_top_but_not_released": 1
+      }
+    },
+    "blue_on_yellow": {
+      "n": 1,
+      "final_strict_stack_success_rate": 1.0,
+      "ever_source_lift_success_rate": 1.0,
+      "failure_class_counts": {
+        "strict_stack_success_clean": 1
+      }
+    },
+    "green_on_blue": {
+      "n": 1,
+      "final_strict_stack_success_rate": 1.0,
+      "ever_source_lift_success_rate": 1.0,
+      "failure_class_counts": {
+        "strict_stack_success_clean": 1
+      }
+    },
+    "green_on_red": {
+      "n": 1,
+      "final_strict_stack_success_rate": 0.0,
+      "ever_source_lift_success_rate": 0.0,
+      "failure_class_counts": {
+        "no_source_grasp_or_lift": 1
+      }
+    },
+    "green_on_yellow": {
+      "n": 1,
+      "final_strict_stack_success_rate": 0.0,
+      "ever_source_lift_success_rate": 0.0,
+      "failure_class_counts": {
+        "no_source_grasp_or_lift": 1
+      }
+    },
+    "red_on_blue": {
+      "n": 1,
+      "final_strict_stack_success_rate": 0.0,
+      "ever_source_lift_success_rate": 0.0,
+      "failure_class_counts": {
+        "no_source_grasp_or_lift": 1
+      }
+    },
+    "red_on_green": {
+      "n": 1,
+      "final_strict_stack_success_rate": 1.0,
+      "ever_source_lift_success_rate": 1.0,
+      "failure_class_counts": {
+        "strict_stack_success_clean": 1
+      }
+    },
+    "red_on_yellow": {
+      "n": 1,
+      "final_strict_stack_success_rate": 1.0,
+      "ever_source_lift_success_rate": 1.0,
+      "failure_class_counts": {
+        "strict_stack_success_clean": 1
+      }
+    },
+    "yellow_on_blue": {
+      "n": 1,
+      "final_strict_stack_success_rate": 0.0,
+      "ever_source_lift_success_rate": 1.0,
+      "failure_class_counts": {
+        "on_top_but_not_released": 1
+      }
+    },
+    "yellow_on_green": {
+      "n": 1,
+      "final_strict_stack_success_rate": 0.0,
+      "ever_source_lift_success_rate": 1.0,
+      "failure_class_counts": {
+        "on_top_but_not_released": 1
+      }
+    },
+    "yellow_on_red": {
+      "n": 1,
+      "final_strict_stack_success_rate": 0.0,
+      "ever_source_lift_success_rate": 1.0,
+      "failure_class_counts": {
+        "on_top_but_not_released": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,237 @@
+RACCOON_RLDS_INTERMEDIATE_ROOT=/data/biy/Raccoonbot_Openvla/Mujoco/raccoon_dataset/openvla_rlds_intermediate_v11_plus_stack_from_v11_close004_release_fk_command_delta
+ACTION_LABEL_SOURCE=command_delta
+TFDS_SRC=/data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build
+TFDS_OUT=/data/biy/Raccoonbot_Openvla/tensorflow_datasets
+2026-06-13 22:32:21.656409: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-13 22:32:22.329532: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2026-06-13 22:32:23.139399: W tensorflow/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+INFO[build.py]: Loading dataset  from path: /data/biy/Raccoonbot_Openvla/Mujoco/rlds_dataset_builder/raccoon_pick_place/raccoon_pick_place_dataset_builder.py
+INFO[build.py]: download_and_prepare for dataset raccoon_pick_place/1.0.0...
+INFO[dataset_builder.py]: Generating dataset raccoon_pick_place (/data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0)
+[1mDownloading and preparing dataset Unknown size (download: Unknown size, generated: Unknown size, total: Unknown size) to /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0...[0m
+Generating splits...:   0%|          | 0/2 [00:00<?, ? splits/s]
+Generating train examples...: 0 examples [00:00, ? examples/s][A
+Generating train examples...: 2 examples [00:00, 15.79 examples/s][A
+Generating train examples...: 10 examples [00:00, 49.61 examples/s][A
+Generating train examples...: 19 examples [00:00, 65.46 examples/s][A
+Generating train examples...: 28 examples [00:00, 73.79 examples/s][A
+Generating train examples...: 37 examples [00:00, 77.57 examples/s][A
+Generating train examples...: 46 examples [00:00, 80.74 examples/s][A
+Generating train examples...: 55 examples [00:00, 82.60 examples/s][A
+Generating train examples...: 64 examples [00:00, 83.89 examples/s][A
+Generating train examples...: 73 examples [00:00, 84.97 examples/s][A
+Generating train examples...: 82 examples [00:01, 86.05 examples/s][A
+Generating train examples...: 91 examples [00:01, 86.78 examples/s][A
+Generating train examples...: 100 examples [00:01, 86.08 examples/s][A
+Generating train examples...: 109 examples [00:01, 86.33 examples/s][A
+Generating train examples...: 118 examples [00:01, 86.63 examples/s][A
+Generating train examples...: 127 examples [00:01, 85.43 examples/s][A
+Generating train examples...: 136 examples [00:01, 85.55 examples/s][A
+Generating train examples...: 145 examples [00:01, 85.92 examples/s][A
+Generating train examples...: 154 examples [00:01, 86.14 examples/s][A
+Generating train examples...: 163 examples [00:01, 86.12 examples/s][A
+Generating train examples...: 172 examples [00:02, 85.40 examples/s][A
+Generating train examples...: 181 examples [00:02, 85.80 examples/s][A
+Generating train examples...: 190 examples [00:02, 86.37 examples/s][A
+Generating train examples...: 199 examples [00:02, 86.90 examples/s][A
+Generating train examples...: 208 examples [00:02, 87.23 examples/s][A
+Generating train examples...: 217 examples [00:02, 87.64 examples/s][A
+Generating train examples...: 226 examples [00:02, 87.62 examples/s][A
+Generating train examples...: 235 examples [00:02, 86.74 examples/s][A
+Generating train examples...: 244 examples [00:02, 85.96 examples/s][A
+Generating train examples...: 253 examples [00:03, 85.44 examples/s][A
+Generating train examples...: 262 examples [00:03, 85.90 examples/s][A
+Generating train examples...: 271 examples [00:03, 86.48 examples/s][A
+Generating train examples...: 280 examples [00:03, 86.79 examples/s][A
+Generating train examples...: 289 examples [00:03, 87.00 examples/s][A
+Generating train examples...: 298 examples [00:03, 86.19 examples/s][A
+Generating train examples...: 307 examples [00:03, 86.42 examples/s][A
+Generating train examples...: 316 examples [00:03, 86.58 examples/s][A
+Generating train examples...: 325 examples [00:03, 86.81 examples/s][A
+Generating train examples...: 334 examples [00:03, 87.40 examples/s][A
+Generating train examples...: 343 examples [00:04, 87.22 examples/s][A
+Generating train examples...: 352 examples [00:04, 87.24 examples/s][A
+Generating train examples...: 361 examples [00:04, 86.68 examples/s][A
+Generating train examples...: 370 examples [00:04, 83.99 examples/s][A
+Generating train examples...: 379 examples [00:04, 84.71 examples/s][A
+Generating train examples...: 388 examples [00:04, 85.29 examples/s][A
+Generating train examples...: 397 examples [00:04, 86.14 examples/s][A
+Generating train examples...: 406 examples [00:04, 86.52 examples/s][A
+Generating train examples...: 415 examples [00:04, 86.64 examples/s][A
+Generating train examples...: 424 examples [00:05, 86.75 examples/s][A
+Generating train examples...: 433 examples [00:05, 87.07 examples/s][A
+Generating train examples...: 442 examples [00:05, 86.94 examples/s][A
+Generating train examples...: 451 examples [00:05, 87.24 examples/s][A
+Generating train examples...: 460 examples [00:05, 87.40 examples/s][A
+Generating train examples...: 469 examples [00:05, 87.49 examples/s][A
+Generating train examples...: 478 examples [00:05, 87.37 examples/s][A
+Generating train examples...: 487 examples [00:05, 87.23 examples/s][A
+Generating train examples...: 496 examples [00:05, 85.55 examples/s][A
+Generating train examples...: 505 examples [00:05, 85.77 examples/s][A
+Generating train examples...: 514 examples [00:06, 86.10 examples/s][A
+Generating train examples...: 523 examples [00:06, 86.42 examples/s][A
+Generating train examples...: 532 examples [00:06, 86.90 examples/s][A
+Generating train examples...: 541 examples [00:06, 87.03 examples/s][A
+Generating train examples...: 550 examples [00:06, 86.97 examples/s][A
+Generating train examples...: 559 examples [00:06, 87.27 examples/s][A
+Generating train examples...: 568 examples [00:06, 87.17 examples/s][A
+Generating train examples...: 577 examples [00:06, 87.13 examples/s][A
+Generating train examples...: 586 examples [00:06, 87.35 examples/s][A
+Generating train examples...: 595 examples [00:06, 87.25 examples/s][A
+Generating train examples...: 604 examples [00:07, 87.38 examples/s][A
+Generating train examples...: 613 examples [00:07, 86.54 examples/s][A
+Generating train examples...: 622 examples [00:07, 86.12 examples/s][A
+Generating train examples...: 631 examples [00:07, 86.25 examples/s][A
+Generating train examples...: 640 examples [00:07, 86.05 examples/s][A
+Generating train examples...: 649 examples [00:07, 86.26 examples/s][A
+Generating train examples...: 658 examples [00:07, 85.92 examples/s][A
+Generating train examples...: 667 examples [00:07, 86.28 examples/s][A
+Generating train examples...: 676 examples [00:07, 86.61 examples/s][A
+Generating train examples...: 685 examples [00:08, 86.93 examples/s][A
+Generating train examples...: 694 examples [00:08, 87.14 examples/s][A
+Generating train examples...: 703 examples [00:08, 86.42 examples/s][A
+Generating train examples...: 712 examples [00:08, 86.54 examples/s][A
+Generating train examples...: 721 examples [00:08, 86.93 examples/s][A
+Generating train examples...: 730 examples [00:08, 86.90 examples/s][A
+Generating train examples...: 739 examples [00:08, 85.51 examples/s][A
+Generating train examples...: 748 examples [00:08, 85.83 examples/s][A
+Generating train examples...: 757 examples [00:08, 86.40 examples/s][A
+Generating train examples...: 766 examples [00:08, 85.89 examples/s][A
+Generating train examples...: 775 examples [00:09, 86.12 examples/s][A
+Generating train examples...: 784 examples [00:09, 86.37 examples/s][A
+Generating train examples...: 793 examples [00:09, 86.64 examples/s][A
+Generating train examples...: 802 examples [00:09, 86.40 examples/s][A
+Generating train examples...: 811 examples [00:09, 86.96 examples/s][A
+Generating train examples...: 820 examples [00:09, 87.41 examples/s][A
+Generating train examples...: 829 examples [00:09, 87.55 examples/s][A
+Generating train examples...: 838 examples [00:09, 86.68 examples/s][A
+Generating train examples...: 847 examples [00:09, 87.08 examples/s][A
+Generating train examples...: 856 examples [00:10, 85.70 examples/s][A
+Generating train examples...: 865 examples [00:10, 85.91 examples/s][A
+Generating train examples...: 874 examples [00:10, 86.46 examples/s][A
+Generating train examples...: 883 examples [00:10, 86.78 examples/s][A
+Generating train examples...: 892 examples [00:10, 86.93 examples/s][A
+Generating train examples...: 901 examples [00:11, 30.69 examples/s][A
+Generating train examples...: 910 examples [00:11, 37.74 examples/s][A
+Generating train examples...: 918 examples [00:11, 43.99 examples/s][A
+Generating train examples...: 927 examples [00:11, 51.40 examples/s][A
+Generating train examples...: 936 examples [00:11, 58.41 examples/s][A
+Generating train examples...: 945 examples [00:11, 64.63 examples/s][A
+Generating train examples...: 954 examples [00:11, 69.54 examples/s][A
+Generating train examples...: 963 examples [00:11, 73.31 examples/s][A
+Generating train examples...: 972 examples [00:12, 75.94 examples/s][A
+Generating train examples...: 981 examples [00:12, 77.66 examples/s][A
+Generating train examples...: 990 examples [00:12, 79.53 examples/s][A
+Generating train examples...: 999 examples [00:12, 81.14 examples/s][A
+Generating train examples...: 1008 examples [00:12, 82.06 examples/s][A
+Generating train examples...: 1017 examples [00:12, 82.68 examples/s][A
+Generating train examples...: 1026 examples [00:12, 83.29 examples/s][A
+Generating train examples...: 1035 examples [00:12, 81.53 examples/s][A
+Generating train examples...: 1044 examples [00:12, 81.00 examples/s][A
+Generating train examples...: 1053 examples [00:12, 81.29 examples/s][A
+Generating train examples...: 1062 examples [00:13, 81.34 examples/s][A
+Generating train examples...: 1071 examples [00:13, 80.75 examples/s][A
+Generating train examples...: 1080 examples [00:13, 80.94 examples/s][A
+Generating train examples...: 1089 examples [00:13, 69.84 examples/s][A
+Generating train examples...: 1097 examples [00:13, 58.28 examples/s][A
+Generating train examples...: 1104 examples [00:13, 52.88 examples/s][A
+Generating train examples...: 1110 examples [00:14, 49.79 examples/s][A
+Generating train examples...: 1116 examples [00:14, 46.72 examples/s][A
+Generating train examples...: 1121 examples [00:14, 43.42 examples/s][A
+Generating train examples...: 1126 examples [00:14, 42.91 examples/s][A
+Generating train examples...: 1131 examples [00:14, 42.52 examples/s][A
+Generating train examples...: 1136 examples [00:14, 41.01 examples/s][A
+Generating train examples...: 1141 examples [00:14, 41.17 examples/s][A
+Generating train examples...: 1146 examples [00:14, 40.03 examples/s][A
+Generating train examples...: 1151 examples [00:15, 40.52 examples/s][A
+Generating train examples...: 1156 examples [00:15, 40.61 examples/s][A
+Generating train examples...: 1161 examples [00:15, 40.65 examples/s][A
+Generating train examples...: 1166 examples [00:15, 40.65 examples/s][A
+Generating train examples...: 1171 examples [00:15, 40.08 examples/s][A
+Generating train examples...: 1176 examples [00:15, 40.47 examples/s][A
+Generating train examples...: 1181 examples [00:15, 40.88 examples/s][A
+Generating train examples...: 1186 examples [00:15, 41.10 examples/s][A
+Generating train examples...: 1191 examples [00:16, 41.31 examples/s][A
+                                                                     [A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:   0%|          | 0/1191 [00:00<?, ? examples/s][A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:   7%|▋         | 81/1191 [00:00<00:01, 806.06 examples/s][A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:  14%|█▎        | 162/1191 [00:00<00:01, 796.80 examples/s][A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:  20%|██        | 242/1191 [00:00<00:01, 783.47 examples/s][A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:  28%|██▊       | 328/1191 [00:00<00:01, 812.23 examples/s][A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:  34%|███▍      | 410/1191 [00:00<00:00, 798.05 examples/s][A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:  41%|████▏     | 493/1191 [00:00<00:00, 803.53 examples/s][A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:  48%|████▊     | 574/1191 [00:00<00:00, 795.03 examples/s][A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:  55%|█████▍    | 654/1191 [00:00<00:00, 791.45 examples/s][A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:  62%|██████▏   | 734/1191 [00:00<00:00, 761.58 examples/s][A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:  69%|██████▊   | 818/1191 [00:01<00:00, 781.92 examples/s][A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:  75%|███████▌  | 897/1191 [00:01<00:00, 777.95 examples/s][A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:  82%|████████▏ | 977/1191 [00:01<00:00, 782.95 examples/s][A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:  89%|████████▉ | 1058/1191 [00:01<00:00, 790.21 examples/s][A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*...:  96%|█████████▌| 1138/1191 [00:01<00:00, 789.75 examples/s][A
+                                                                                                                                                                                                                 [A                                                                Generating splits...:   0%|          | 0/2 [00:17<?, ? splits/s]Generating splits...:  50%|█████     | 1/2 [00:17<00:17, 17.60s/ splits]INFO[writer.py]: Done writing /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-train.tfrecord*. Number of examples: 1191 (shards: [74, 75, 74, 75, 74, 75, 74, 75, 74, 74, 75, 74, 75, 74, 75, 74])
+
+Generating val examples...: 0 examples [00:00, ? examples/s][A
+Generating val examples...: 9 examples [00:00, 86.67 examples/s][A
+Generating val examples...: 18 examples [00:00, 55.48 examples/s][A
+Generating val examples...: 27 examples [00:00, 66.30 examples/s][A
+Generating val examples...: 36 examples [00:00, 73.22 examples/s][A
+Generating val examples...: 45 examples [00:00, 77.46 examples/s][A
+Generating val examples...: 54 examples [00:00, 79.39 examples/s][A
+Generating val examples...: 63 examples [00:00, 80.47 examples/s][A
+Generating val examples...: 72 examples [00:00, 82.00 examples/s][A
+Generating val examples...: 81 examples [00:01, 83.30 examples/s][A
+Generating val examples...: 90 examples [00:01, 84.33 examples/s][A
+Generating val examples...: 99 examples [00:01, 85.17 examples/s][A
+Generating val examples...: 108 examples [00:01, 85.62 examples/s][A
+Generating val examples...: 117 examples [00:01, 82.40 examples/s][A
+Generating val examples...: 126 examples [00:01, 64.73 examples/s][A
+                                                                  [A
+Shuffling /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-val.tfrecord*...:   0%|          | 0/129 [00:00<?, ? examples/s][A
+                                                                                                                                                                                                  [A                                                                        Generating splits...:  50%|█████     | 1/2 [00:19<00:17, 17.60s/ splits]Generating splits...: 100%|██████████| 2/2 [00:19<00:00,  8.34s/ splits]                                                                        INFO[writer.py]: Done writing /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0.incompleteGR1I4Z/raccoon_pick_place-val.tfrecord*. Number of examples: 129 (shards: [64, 65])
+[1mDataset raccoon_pick_place downloaded and prepared to /data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0. Subsequent calls will reuse this data.[0m
+INFO[build.py]: Dataset generation complete...
+
+tfds.core.DatasetInfo(
+    name='raccoon_pick_place',
+    full_name='raccoon_pick_place/1.0.0',
+    description="""
+    TFDS/RLDS builder for the Raccoon pick-and-place dataset.
+    """,
+    homepage='local',
+    data_path='/data/biy/Raccoonbot_Openvla/tensorflow_datasets_tmp_build/raccoon_pick_place/1.0.0',
+    file_format=tfrecord,
+    download_size=Unknown size,
+    dataset_size=1.56 GiB,
+    features=FeaturesDict({
+        'episode_metadata': FeaturesDict({
+            'box_init_xy': Tensor(shape=(2,), dtype=float32),
+            'box_init_yaw': Scalar(shape=(), dtype=float32),
+            'episode_id': Scalar(shape=(), dtype=int32),
+            'goal_xy': Tensor(shape=(2,), dtype=float32),
+            'source_path': Text(shape=(), dtype=string),
+            'success': Scalar(shape=(), dtype=bool),
+        }),
+        'steps': Dataset({
+            'action': Tensor(shape=(7,), dtype=float32),
+            'discount': Scalar(shape=(), dtype=float32),
+            'is_first': Scalar(shape=(), dtype=bool),
+            'is_last': Scalar(shape=(), dtype=bool),
+            'is_terminal': Scalar(shape=(), dtype=bool),
+            'language_instruction': Text(shape=(), dtype=string),
+            'observation': FeaturesDict({
+                'image': Image(shape=(256, 256, 3), dtype=uint8),
+                'state': Tensor(shape=(8,), dtype=float32),
+            }),
+            'reward': Scalar(shape=(), dtype=float32),
+        }),
+    }),
+    supervised_keys=None,
+    disable_shuffling=False,
+    splits={
+        'train': <SplitInfo num_examples=1191, num_shards=16>,
+        'val': <SplitInfo num_examples=129, num_shards=2>,
+    },
+    citation="""""",
+)
+

@@ -1,0 +1,443 @@
+[INFO] queued_at_utc=2026-06-12T14:08:57+00:00
+[INFO] 2026-06-12T14:08:57+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:09:57+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:10:57+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:11:57+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:12:57+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:13:57+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:14:57+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:15:57+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:16:57+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:17:58+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:18:58+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:19:58+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:20:58+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:21:58+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:22:58+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:23:58+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:24:58+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:25:58+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:26:58+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:27:58+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:28:58+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:29:59+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:30:59+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:31:59+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:32:59+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:33:59+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:34:59+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:35:59+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:36:59+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:37:59+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:38:59+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:39:59+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:40:59+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:41:59+00:00 gpu_free_mib=22420 gpu_used_mib=58630
+[INFO] 2026-06-12T14:42:59+00:00 gpu_free_mib=22420 gpu_used_mib=58630
+[INFO] 2026-06-12T14:43:59+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:44:59+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:46:00+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:47:00+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:48:00+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:49:00+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:50:00+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:51:00+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:52:00+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:53:00+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:54:01+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:55:01+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:56:01+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:57:01+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:58:01+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T14:59:01+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:00:01+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:01:02+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:02:02+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:03:02+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:04:02+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:05:02+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:06:02+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:07:02+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:08:02+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:09:03+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:10:03+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:11:03+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:12:03+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:13:03+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:14:03+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:15:03+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:16:04+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:17:04+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:18:05+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:19:05+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:20:06+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:21:06+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:22:07+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:23:07+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:24:08+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:25:09+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:26:09+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:27:09+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:28:10+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:29:10+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:30:11+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:31:11+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:32:11+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:33:12+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:34:12+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:35:13+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:36:13+00:00 gpu_free_mib=7085 gpu_used_mib=73964
+[INFO] 2026-06-12T15:37:14+00:00 gpu_free_mib=21515 gpu_used_mib=59534
+[INFO] 2026-06-12T15:38:15+00:00 gpu_free_mib=21515 gpu_used_mib=59534
+[INFO] 2026-06-12T15:39:15+00:00 gpu_free_mib=6625 gpu_used_mib=74424
+[INFO] 2026-06-12T15:40:16+00:00 gpu_free_mib=6181 gpu_used_mib=74868
+[INFO] 2026-06-12T15:41:16+00:00 gpu_free_mib=6181 gpu_used_mib=74868
+[INFO] 2026-06-12T15:42:16+00:00 gpu_free_mib=6181 gpu_used_mib=74868
+[INFO] 2026-06-12T15:43:17+00:00 gpu_free_mib=6181 gpu_used_mib=74868
+[INFO] 2026-06-12T15:44:17+00:00 gpu_free_mib=22420 gpu_used_mib=58630
+[INFO] 2026-06-12T15:45:18+00:00 gpu_free_mib=7321 gpu_used_mib=73728
+[INFO] 2026-06-12T15:46:18+00:00 gpu_free_mib=7243 gpu_used_mib=73806
+[INFO] 2026-06-12T15:47:19+00:00 gpu_free_mib=7243 gpu_used_mib=73806
+[INFO] 2026-06-12T15:48:19+00:00 gpu_free_mib=37978 gpu_used_mib=43072
+[INFO] starting_eval_at_utc=2026-06-12T15:48:19+00:00
+[INFO] adapter=openvla/openvla-adapter-tmp/47a0ec7fc4ec123775a391911046cf33cf9ed83f+raccoon_pick_place+b16+lr-0.0005+lora-r32+dropout-0.0--v11-initial-lift-close-1200eps-15000steps-b8ga2--image_aug--15000_chkpt
+[INFO] run_name=v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs
+[INFO] device=cuda
+[INFO] gpu_before={'free_gib': 36.677734375, 'total_gib': 79.1510009765625, 'allocated_gib': 0.0, 'reserved_gib': 0.0}
+[INFO] loading model: /data/biy/Raccoonbot_Openvla/openvla/openvla-runs/47a0ec7fc4ec123775a391911046cf33cf9ed83f+raccoon_pick_place+b16+lr-0.0005+lora-r32+dropout-0.0--v11-initial-lift-close-1200eps-15000steps-b8ga2--image_aug--15000_chkpt
+[INFO] loading adapter: openvla/openvla-adapter-tmp/47a0ec7fc4ec123775a391911046cf33cf9ed83f+raccoon_pick_place+b16+lr-0.0005+lora-r32+dropout-0.0--v11-initial-lift-close-1200eps-15000steps-b8ga2--image_aug--15000_chkpt
+[INFO] loading base model: /root/.cache/huggingface/hub/models--openvla--openvla-7b/snapshots/47a0ec7fc4ec123775a391911046cf33cf9ed83f
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  3.88it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  4.48it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  4.82it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  4.64it/s]
+Could not load bitsandbytes native library: libcusparse.so.12: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/bitsandbytes/cextension.py", line 85, in <module>
+    lib = get_native_library()
+  File "/usr/local/lib/python3.8/dist-packages/bitsandbytes/cextension.py", line 72, in get_native_library
+    dll = ct.cdll.LoadLibrary(str(binary_path))
+  File "/usr/lib/python3.8/ctypes/__init__.py", line 451, in LoadLibrary
+    return self._dlltype(name)
+  File "/usr/lib/python3.8/ctypes/__init__.py", line 373, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libcusparse.so.12: cannot open shared object file: No such file or directory
+
+CUDA Setup failed despite CUDA being available. Please run the following command to get more information:
+
+python -m bitsandbytes
+
+Inspect the output of the command and see if you can locate CUDA libraries. You might need to add them
+to your LD_LIBRARY_PATH. If you suspect a bug, please take the information from python -m bitsandbytes
+and open an issue at: https://github.com/bitsandbytes-foundation/bitsandbytes/issues
+
+[INFO] gpu_after_load={'free_gib': 22.34375, 'total_gib': 79.1510009765625, 'allocated_gib': 14.296941757202148, 'reserved_gib': 14.333984375}
+[ROLLOUT 0001] scene=0001 color=yellow instruction='grasp only the yellow cylinder'
+[RESULT 0001] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0122 steps=35 exception=None
+[ROLLOUT 0002] scene=0001 color=red instruction='grasp the red cylinder'
+[RESULT 0002] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0122 steps=35 exception=None
+[ROLLOUT 0003] scene=0001 color=green instruction='grab the green cylinder'
+[RESULT 0003] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0121 steps=37 exception=None
+[ROLLOUT 0004] scene=0001 color=blue instruction='take hold of the blue cylinder'
+[RESULT 0004] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0122 steps=39 exception=None
+[ROLLOUT 0005] scene=0002 color=blue instruction='pick up and hold the blue cylinder'
+[RESULT 0005] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0122 steps=38 exception=None
+[ROLLOUT 0006] scene=0002 color=yellow instruction='lift the yellow cylinder'
+[RESULT 0006] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0129 steps=46 exception=None
+[ROLLOUT 0007] scene=0002 color=green instruction='grab the green cylinder'
+[RESULT 0007] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0123 steps=38 exception=None
+[ROLLOUT 0008] scene=0002 color=red instruction='grasp the red cylinder'
+[RESULT 0008] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0124 steps=36 exception=None
+[ROLLOUT 0009] scene=0003 color=yellow instruction='grasp and lift the yellow cylinder'
+[RESULT 0009] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0122 steps=36 exception=None
+[ROLLOUT 0010] scene=0003 color=red instruction='pick up only the red cylinder'
+[RESULT 0010] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0124 steps=43 exception=None
+[ROLLOUT 0011] scene=0003 color=green instruction='raise the green cylinder'
+[RESULT 0011] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0123 steps=34 exception=None
+[ROLLOUT 0012] scene=0003 color=blue instruction='move to the blue cylinder and lift it'
+[RESULT 0012] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0130 steps=40 exception=None
+[ROLLOUT 0013] scene=0004 color=yellow instruction='grab and lift the yellow cylinder'
+[RESULT 0013] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0126 steps=38 exception=None
+[ROLLOUT 0014] scene=0004 color=blue instruction='grab the blue cylinder'
+[RESULT 0014] color=blue ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=0.0004 steps=50 exception=None
+[ROLLOUT 0015] scene=0004 color=red instruction='take hold of the red cylinder'
+[RESULT 0015] color=red ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=0.0001 steps=50 exception=None
+[ROLLOUT 0016] scene=0004 color=green instruction='pick up the green cylinder'
+[RESULT 0016] color=green ever_contact=True ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=0.0066 steps=50 exception=None
+[ROLLOUT 0017] scene=0005 color=green instruction='lift the green cylinder without touching the others'
+[RESULT 0017] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0121 steps=36 exception=None
+[ROLLOUT 0018] scene=0005 color=yellow instruction='pick up only the yellow cylinder'
+[RESULT 0018] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0125 steps=45 exception=None
+[ROLLOUT 0019] scene=0005 color=red instruction='lift and hold the red cylinder'
+[RESULT 0019] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0122 steps=35 exception=None
+[ROLLOUT 0020] scene=0005 color=blue instruction='pick up the cylinder that is blue'
+[RESULT 0020] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=True lift_final=0.0129 steps=41 exception=None
+[ROLLOUT 0021] scene=0006 color=green instruction='grab the green cylinder'
+[RESULT 0021] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0124 steps=35 exception=None
+[ROLLOUT 0022] scene=0006 color=red instruction='grasp and lift the red cylinder'
+[RESULT 0022] color=red ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=0.0001 steps=50 exception=None
+[ROLLOUT 0023] scene=0006 color=yellow instruction='lift the yellow cylinder without touching the others'
+[RESULT 0023] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0124 steps=40 exception=None
+[ROLLOUT 0024] scene=0006 color=blue instruction='pick up the blue cylinder'
+[RESULT 0024] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0130 steps=39 exception=None
+[ROLLOUT 0025] scene=0007 color=red instruction='move to the red cylinder and lift it'
+[RESULT 0025] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0131 steps=38 exception=None
+[ROLLOUT 0026] scene=0007 color=green instruction='grab and lift the green cylinder'
+[RESULT 0026] color=green ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=0.0001 steps=50 exception=None
+[ROLLOUT 0027] scene=0007 color=blue instruction='grab the blue cylinder'
+[RESULT 0027] color=blue ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=0.0001 steps=50 exception=None
+[ROLLOUT 0028] scene=0007 color=yellow instruction='take hold of the yellow cylinder'
+[RESULT 0028] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0124 steps=43 exception=None
+[ROLLOUT 0029] scene=0008 color=green instruction='pick up only the green cylinder'
+[RESULT 0029] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0140 steps=37 exception=None
+[ROLLOUT 0030] scene=0008 color=yellow instruction='lift the yellow cylinder'
+[RESULT 0030] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0131 steps=36 exception=None
+[ROLLOUT 0031] scene=0008 color=blue instruction='lift the blue cylinder without touching the others'
+[RESULT 0031] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0118 steps=43 exception=None
+[ROLLOUT 0032] scene=0008 color=red instruction='pick up the cylinder that is red'
+[RESULT 0032] color=red ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=True lift_final=0.0001 steps=50 exception=None
+[ROLLOUT 0033] scene=0009 color=red instruction='raise the red cylinder'
+[RESULT 0033] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0126 steps=38 exception=None
+[ROLLOUT 0034] scene=0009 color=green instruction='pick up the cylinder that is green'
+[RESULT 0034] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0124 steps=36 exception=None
+[ROLLOUT 0035] scene=0009 color=blue instruction='pick up only the blue cylinder'
+[RESULT 0035] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0139 steps=37 exception=None
+[ROLLOUT 0036] scene=0009 color=yellow instruction='pick up only the yellow cylinder'
+[RESULT 0036] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=True lift_final=0.0121 steps=46 exception=None
+[ROLLOUT 0037] scene=0010 color=green instruction='grab and lift the green cylinder'
+[RESULT 0037] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=True lift_final=0.0118 steps=41 exception=None
+[ROLLOUT 0038] scene=0010 color=yellow instruction='lift the yellow cylinder without touching the others'
+[RESULT 0038] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0120 steps=35 exception=None
+[ROLLOUT 0039] scene=0010 color=blue instruction='grasp the blue cylinder'
+[RESULT 0039] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0161 steps=37 exception=None
+[ROLLOUT 0040] scene=0010 color=red instruction='lift the red cylinder without touching the others'
+[RESULT 0040] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0126 steps=40 exception=None
+[ROLLOUT 0041] scene=0011 color=green instruction='pick up only the green cylinder'
+[RESULT 0041] color=green ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=-0.0004 steps=50 exception=None
+[ROLLOUT 0042] scene=0011 color=red instruction='take hold of the red cylinder'
+[RESULT 0042] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0122 steps=38 exception=None
+[ROLLOUT 0043] scene=0011 color=yellow instruction='lift the yellow cylinder'
+[RESULT 0043] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0136 steps=40 exception=None
+[ROLLOUT 0044] scene=0011 color=blue instruction='move to the blue cylinder and lift it'
+[RESULT 0044] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0124 steps=35 exception=None
+[ROLLOUT 0045] scene=0012 color=blue instruction='raise the blue cylinder'
+[RESULT 0045] color=blue ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=0.0101 steps=50 exception=None
+[ROLLOUT 0046] scene=0012 color=green instruction='pick up only the green cylinder'
+[RESULT 0046] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0123 steps=36 exception=None
+[ROLLOUT 0047] scene=0012 color=red instruction='pick up the cylinder that is red'
+[RESULT 0047] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0207 steps=37 exception=None
+[ROLLOUT 0048] scene=0012 color=yellow instruction='grasp and lift the yellow cylinder'
+[RESULT 0048] color=yellow ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=0.0001 steps=50 exception=None
+[ROLLOUT 0049] scene=0013 color=green instruction='grasp and lift the green cylinder'
+[RESULT 0049] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0124 steps=36 exception=None
+[ROLLOUT 0050] scene=0013 color=blue instruction='pick up the blue cylinder'
+[RESULT 0050] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0131 steps=46 exception=None
+[ROLLOUT 0051] scene=0013 color=yellow instruction='pick up and hold the yellow cylinder'
+[RESULT 0051] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0100 steps=50 exception=None
+[ROLLOUT 0052] scene=0013 color=red instruction='move to the red cylinder and lift it'
+[RESULT 0052] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0140 steps=41 exception=None
+[ROLLOUT 0053] scene=0014 color=green instruction='lift the green cylinder'
+[RESULT 0053] color=green ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=0.0001 steps=50 exception=None
+[ROLLOUT 0054] scene=0014 color=yellow instruction='pick up the cylinder that is yellow'
+[RESULT 0054] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0121 steps=38 exception=None
+[ROLLOUT 0055] scene=0014 color=blue instruction='grab and lift the blue cylinder'
+[RESULT 0055] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=True lift_final=0.0129 steps=41 exception=None
+[ROLLOUT 0056] scene=0014 color=red instruction='pick up and hold the red cylinder'
+[RESULT 0056] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0127 steps=37 exception=None
+[ROLLOUT 0057] scene=0015 color=blue instruction='lift and hold the blue cylinder'
+[RESULT 0057] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0118 steps=36 exception=None
+[ROLLOUT 0058] scene=0015 color=yellow instruction='pick up the yellow cylinder'
+[RESULT 0058] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0127 steps=38 exception=None
+[ROLLOUT 0059] scene=0015 color=red instruction='grasp the red cylinder'
+[RESULT 0059] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0123 steps=39 exception=None
+[ROLLOUT 0060] scene=0015 color=green instruction='pick up the cylinder that is green'
+[RESULT 0060] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0122 steps=40 exception=None
+[ROLLOUT 0061] scene=0016 color=blue instruction='take hold of the blue cylinder'
+[RESULT 0061] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0122 steps=42 exception=None
+[ROLLOUT 0062] scene=0016 color=yellow instruction='take hold of the yellow cylinder'
+[RESULT 0062] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0124 steps=33 exception=None
+[ROLLOUT 0063] scene=0016 color=green instruction='lift the green cylinder'
+[RESULT 0063] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0134 steps=37 exception=None
+[ROLLOUT 0064] scene=0016 color=red instruction='take hold of the red cylinder'
+[RESULT 0064] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0120 steps=35 exception=None
+[ROLLOUT 0065] scene=0017 color=red instruction='lift the red cylinder without touching the others'
+[RESULT 0065] color=red ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=True lift_final=0.0004 steps=50 exception=None
+[ROLLOUT 0066] scene=0017 color=blue instruction='lift and hold the blue cylinder'
+[RESULT 0066] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0123 steps=39 exception=None
+[ROLLOUT 0067] scene=0017 color=yellow instruction='pick up the cylinder that is yellow'
+[RESULT 0067] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0126 steps=37 exception=None
+[ROLLOUT 0068] scene=0017 color=green instruction='grab and lift the green cylinder'
+[RESULT 0068] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0136 steps=41 exception=None
+[ROLLOUT 0069] scene=0018 color=red instruction='move to the red cylinder and lift it'
+[RESULT 0069] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0126 steps=42 exception=None
+[ROLLOUT 0070] scene=0018 color=blue instruction='grasp only the blue cylinder'
+[RESULT 0070] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0126 steps=34 exception=None
+[ROLLOUT 0071] scene=0018 color=green instruction='grasp only the green cylinder'
+[RESULT 0071] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0126 steps=38 exception=None
+[ROLLOUT 0072] scene=0018 color=yellow instruction='pick up only the yellow cylinder'
+[RESULT 0072] color=yellow ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=0.0001 steps=50 exception=None
+[ROLLOUT 0073] scene=0019 color=blue instruction='raise the blue cylinder'
+[RESULT 0073] color=blue ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=-0.0000 steps=50 exception=None
+[ROLLOUT 0074] scene=0019 color=green instruction='lift and hold the green cylinder'
+[RESULT 0074] color=green ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=True lift_final=0.0001 steps=50 exception=None
+[ROLLOUT 0075] scene=0019 color=red instruction='grab and lift the red cylinder'
+[RESULT 0075] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0123 steps=39 exception=None
+[ROLLOUT 0076] scene=0019 color=yellow instruction='lift the yellow cylinder'
+[RESULT 0076] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0123 steps=36 exception=None
+[ROLLOUT 0077] scene=0020 color=red instruction='grasp only the red cylinder'
+[RESULT 0077] color=red ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=True lift_final=0.0001 steps=50 exception=None
+[ROLLOUT 0078] scene=0020 color=green instruction='lift and hold the green cylinder'
+[RESULT 0078] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0122 steps=39 exception=None
+[ROLLOUT 0079] scene=0020 color=blue instruction='take hold of the blue cylinder'
+[RESULT 0079] color=blue ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=0.0001 steps=50 exception=None
+[ROLLOUT 0080] scene=0020 color=yellow instruction='lift the yellow cylinder'
+[RESULT 0080] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0128 steps=39 exception=None
+[ROLLOUT 0081] scene=0021 color=blue instruction='grab and lift the blue cylinder'
+[RESULT 0081] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0135 steps=38 exception=None
+[ROLLOUT 0082] scene=0021 color=green instruction='raise the green cylinder'
+[RESULT 0082] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0124 steps=38 exception=None
+[ROLLOUT 0083] scene=0021 color=yellow instruction='move to the yellow cylinder and lift it'
+[RESULT 0083] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0126 steps=35 exception=None
+[ROLLOUT 0084] scene=0021 color=red instruction='take hold of the red cylinder'
+[RESULT 0084] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0123 steps=35 exception=None
+[ROLLOUT 0085] scene=0022 color=yellow instruction='lift and hold the yellow cylinder'
+[RESULT 0085] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0122 steps=39 exception=None
+[ROLLOUT 0086] scene=0022 color=green instruction='pick up the cylinder that is green'
+[RESULT 0086] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0123 steps=41 exception=None
+[ROLLOUT 0087] scene=0022 color=red instruction='pick up the red cylinder'
+[RESULT 0087] color=red ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=0.0001 steps=50 exception=None
+[ROLLOUT 0088] scene=0022 color=blue instruction='grasp and lift the blue cylinder'
+[RESULT 0088] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=True lift_final=0.0127 steps=40 exception=None
+[ROLLOUT 0089] scene=0023 color=green instruction='pick up the cylinder that is green'
+[RESULT 0089] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0120 steps=37 exception=None
+[ROLLOUT 0090] scene=0023 color=yellow instruction='grab the yellow cylinder'
+[RESULT 0090] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0121 steps=37 exception=None
+[ROLLOUT 0091] scene=0023 color=blue instruction='lift the blue cylinder'
+[RESULT 0091] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0122 steps=36 exception=None
+[ROLLOUT 0092] scene=0023 color=red instruction='raise the red cylinder'
+[RESULT 0092] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0123 steps=37 exception=None
+[ROLLOUT 0093] scene=0024 color=yellow instruction='raise the yellow cylinder'
+[RESULT 0093] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0129 steps=39 exception=None
+[ROLLOUT 0094] scene=0024 color=green instruction='grasp the green cylinder'
+[RESULT 0094] color=green ever_contact=True ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=0.0008 steps=50 exception=None
+[ROLLOUT 0095] scene=0024 color=red instruction='grab and lift the red cylinder'
+[RESULT 0095] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0123 steps=35 exception=None
+[ROLLOUT 0096] scene=0024 color=blue instruction='take hold of the blue cylinder'
+[RESULT 0096] color=blue ever_contact=False ever_strict_lift=False final_strict_lift=False wrong_touch=False lift_final=0.0001 steps=50 exception=None
+[ROLLOUT 0097] scene=0025 color=yellow instruction='raise the yellow cylinder'
+[RESULT 0097] color=yellow ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0127 steps=37 exception=None
+[ROLLOUT 0098] scene=0025 color=blue instruction='take hold of the blue cylinder'
+[RESULT 0098] color=blue ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0120 steps=35 exception=None
+[ROLLOUT 0099] scene=0025 color=green instruction='grasp the green cylinder'
+[RESULT 0099] color=green ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0124 steps=38 exception=None
+[ROLLOUT 0100] scene=0025 color=red instruction='pick up only the red cylinder'
+[RESULT 0100] color=red ever_contact=True ever_strict_lift=True final_strict_lift=True wrong_touch=False lift_final=0.0123 steps=34 exception=None
+[SUMMARY] {
+  "num_rollouts": 100,
+  "ever_contact_success_count": 82,
+  "ever_contact_success_rate": 0.82,
+  "ever_strict_lift_success_count": 80,
+  "ever_strict_lift_success_rate": 0.8,
+  "final_contact_success_count": 82,
+  "final_contact_success_rate": 0.82,
+  "final_strict_lift_success_count": 80,
+  "final_strict_lift_success_rate": 0.8,
+  "wrong_color_touch_count": 9,
+  "wrong_color_touch_rate": 0.09,
+  "exception_count": 0,
+  "mean_final_lift_delta": 0.010305988700129092,
+  "median_final_lift_delta": 0.01230002660304308,
+  "mean_steps": 40.63,
+  "by_color": {
+    "blue": {
+      "n": 25,
+      "ever_contact_success_rate": 0.76,
+      "ever_strict_lift_success_rate": 0.76,
+      "final_strict_lift_success_rate": 0.76,
+      "wrong_color_touch_rate": 0.12,
+      "mean_final_lift_delta": 0.010140060149133205
+    },
+    "green": {
+      "n": 25,
+      "ever_contact_success_rate": 0.84,
+      "ever_strict_lift_success_rate": 0.76,
+      "final_strict_lift_success_rate": 0.76,
+      "wrong_color_touch_rate": 0.08,
+      "mean_final_lift_delta": 0.009776239059865474
+    },
+    "red": {
+      "n": 25,
+      "ever_contact_success_rate": 0.76,
+      "ever_strict_lift_success_rate": 0.76,
+      "final_strict_lift_success_rate": 0.76,
+      "wrong_color_touch_rate": 0.12,
+      "mean_final_lift_delta": 0.009870185721665621
+    },
+    "yellow": {
+      "n": 25,
+      "ever_contact_success_rate": 0.92,
+      "ever_strict_lift_success_rate": 0.92,
+      "final_strict_lift_success_rate": 0.92,
+      "wrong_color_touch_rate": 0.04,
+      "mean_final_lift_delta": 0.011437469869852066
+    }
+  },
+  "instruction_counts": {
+    "grasp only the yellow cylinder": 1,
+    "grasp the red cylinder": 3,
+    "grab the green cylinder": 3,
+    "take hold of the blue cylinder": 5,
+    "pick up and hold the blue cylinder": 1,
+    "lift the yellow cylinder": 5,
+    "grasp and lift the yellow cylinder": 2,
+    "pick up only the red cylinder": 2,
+    "raise the green cylinder": 2,
+    "move to the blue cylinder and lift it": 2,
+    "grab and lift the yellow cylinder": 1,
+    "grab the blue cylinder": 2,
+    "take hold of the red cylinder": 4,
+    "pick up the green cylinder": 1,
+    "lift the green cylinder without touching the others": 1,
+    "pick up only the yellow cylinder": 3,
+    "lift and hold the red cylinder": 1,
+    "pick up the cylinder that is blue": 1,
+    "grasp and lift the red cylinder": 1,
+    "lift the yellow cylinder without touching the others": 2,
+    "pick up the blue cylinder": 2,
+    "move to the red cylinder and lift it": 3,
+    "grab and lift the green cylinder": 3,
+    "take hold of the yellow cylinder": 2,
+    "pick up only the green cylinder": 3,
+    "lift the blue cylinder without touching the others": 1,
+    "pick up the cylinder that is red": 2,
+    "raise the red cylinder": 2,
+    "pick up the cylinder that is green": 4,
+    "pick up only the blue cylinder": 1,
+    "grasp the blue cylinder": 1,
+    "lift the red cylinder without touching the others": 2,
+    "raise the blue cylinder": 2,
+    "grasp and lift the green cylinder": 1,
+    "pick up and hold the yellow cylinder": 1,
+    "lift the green cylinder": 2,
+    "pick up the cylinder that is yellow": 2,
+    "grab and lift the blue cylinder": 2,
+    "pick up and hold the red cylinder": 1,
+    "lift and hold the blue cylinder": 2,
+    "pick up the yellow cylinder": 1,
+    "grasp only the blue cylinder": 1,
+    "grasp only the green cylinder": 1,
+    "lift and hold the green cylinder": 2,
+    "grab and lift the red cylinder": 2,
+    "grasp only the red cylinder": 1,
+    "move to the yellow cylinder and lift it": 1,
+    "lift and hold the yellow cylinder": 1,
+    "pick up the red cylinder": 1,
+    "grasp and lift the blue cylinder": 1,
+    "grab the yellow cylinder": 1,
+    "lift the blue cylinder": 1,
+    "raise the yellow cylinder": 2,
+    "grasp the green cylinder": 2
+  }
+}
+[INFO] wrote_json=/data/biy/Raccoonbot_Openvla/diagnostics/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs.json
+[INFO] wrote_csv=/data/biy/Raccoonbot_Openvla/diagnostics/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs.csv
+[INFO] wrote_md=/data/biy/Raccoonbot_Openvla/diagnostics/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs.md
+[INFO] report_dir=/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs
+[INFO] finished_at_utc=2026-06-12T16:40:37+00:00

@@ -1,0 +1,101 @@
+episode_index,scene_id,target_color,instruction,final_strict_lift_success,ever_wrong_color_touch,ever_contact_success,target_lift_delta_final,failure_class,min_xy_to_target_m,first_close_step,close_count,gif_path
+1,1,yellow,grasp only the yellow cylinder,True,False,True,0.01224939338862896,target_lift_success,0.004687002444400832,28,7,
+2,1,red,grasp the red cylinder,True,False,True,0.012235167436301708,target_lift_success,0.0011121524188868782,27,8,
+3,1,green,grab the green cylinder,True,False,True,0.012120424769818783,target_lift_success,0.0013961471257094283,30,7,
+4,1,blue,take hold of the blue cylinder,True,False,True,0.012157068587839603,target_lift_success,0.0020973547503222974,32,7,
+5,2,blue,pick up and hold the blue cylinder,True,False,True,0.012215076945722103,target_lift_success,0.0013119800712045697,31,7,
+6,2,yellow,lift the yellow cylinder,True,False,True,0.012893528677523136,target_lift_success,0.0015191123650119822,38,8,
+7,2,green,grab the green cylinder,True,False,True,0.01233785692602396,target_lift_success,0.003117219347834475,31,7,
+8,2,red,grasp the red cylinder,True,False,True,0.012418475933372974,target_lift_success,0.002066959527120255,29,7,
+9,3,yellow,grasp and lift the yellow cylinder,True,False,True,0.01220609899610281,target_lift_success,0.0007848185107713447,29,7,
+10,3,red,pick up only the red cylinder,True,False,True,0.012354935519397259,target_lift_success,0.0011448411872130903,36,7,
+11,3,green,raise the green cylinder,True,False,True,0.012269440107047558,target_lift_success,0.00021091302384497977,27,7,
+12,3,blue,move to the blue cylinder and lift it,True,False,True,0.012964188121259212,target_lift_success,0.005349951957767318,33,7,
+13,4,yellow,grab and lift the yellow cylinder,True,False,True,0.012571320869028568,target_lift_success,0.00029048221249180985,30,8,
+14,4,blue,grab the blue cylinder,False,False,False,0.0003649657592177391,no_contact_or_no_close,0.01151595880038132,23,22,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0014_blue.gif
+15,4,red,take hold of the red cylinder,False,False,False,0.00012050289660692215,no_contact_or_no_close,0.0014104742451851871,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0015_red.gif
+16,4,green,pick up the green cylinder,False,False,True,0.006555367261171341,contact_but_lift_fail,0.0025262569454726773,47,3,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0016_green.gif
+17,5,green,lift the green cylinder without touching the others,True,False,True,0.012078799307346344,target_lift_success,0.0003976896377605489,29,7,
+18,5,yellow,pick up only the yellow cylinder,True,False,True,0.01249257754534483,target_lift_success,0.003238914569478569,38,7,
+19,5,red,lift and hold the red cylinder,True,False,True,0.012178424745798111,target_lift_success,0.0010909830786965454,28,7,
+20,5,blue,pick up the cylinder that is blue,True,True,True,0.012894362211227417,target_lift_success,0.001570136649829866,33,8,
+21,6,green,grab the green cylinder,True,False,True,0.012358841486275196,target_lift_success,0.0013617337769915735,28,7,
+22,6,red,grasp and lift the red cylinder,False,False,False,0.00012050289660692215,no_contact_or_no_close,0.0005744948475680299,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0022_red.gif
+23,6,yellow,lift the yellow cylinder without touching the others,True,False,True,0.012427286244928837,target_lift_success,0.0005448812959585833,33,7,
+24,6,blue,pick up the blue cylinder,True,False,True,0.012990383431315422,target_lift_success,0.0015620817996968561,31,8,
+25,7,red,move to the red cylinder and lift it,True,False,True,0.013134629931300879,target_lift_success,0.0011574049639989168,32,6,
+26,7,green,grab and lift the green cylinder,False,False,False,0.00012050289660692215,no_contact_or_no_close,0.002135194786312272,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0026_green.gif
+27,7,blue,grab the blue cylinder,False,False,False,0.00012050289660692215,no_contact_or_no_close,0.0029176748371502977,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0027_blue.gif
+28,7,yellow,take hold of the yellow cylinder,True,False,True,0.01243958342820406,target_lift_success,0.0004968285055318271,36,7,
+29,8,green,pick up only the green cylinder,True,False,True,0.014013140462338924,target_lift_success,0.0006387986513238957,29,8,
+30,8,yellow,lift the yellow cylinder,True,False,True,0.013128853403031826,target_lift_success,0.0014288653466970455,29,7,
+31,8,blue,lift the blue cylinder without touching the others,True,False,True,0.011809800751507282,target_lift_success,0.0006636700639603331,36,7,
+32,8,red,pick up the cylinder that is red,False,True,False,0.00012050289660692215,wrong_touch_and_target_lift_fail,0.00509714888998229,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0032_red.gif
+33,9,red,raise the red cylinder,True,False,True,0.012618022970855236,target_lift_success,0.0009294367290626948,30,8,
+34,9,green,pick up the cylinder that is green,True,False,True,0.01235188264399767,target_lift_success,4.574051839519811e-05,29,7,
+35,9,blue,pick up only the blue cylinder,True,False,True,0.013935444876551628,target_lift_success,0.001145572621958174,29,8,
+36,9,yellow,pick up only the yellow cylinder,True,True,True,0.012116949073970318,target_lift_success,0.002073193163517718,39,7,
+37,10,green,grab and lift the green cylinder,True,True,True,0.01181482058018446,target_lift_success,0.0038052955946676504,34,7,
+38,10,yellow,lift the yellow cylinder without touching the others,True,False,True,0.01200832985341549,target_lift_success,0.0026134400193314243,28,7,
+39,10,blue,grasp the blue cylinder,True,False,True,0.016090909019112587,target_lift_success,0.0016937909568470813,21,11,
+40,10,red,lift the red cylinder without touching the others,True,False,True,0.012628150172531605,target_lift_success,0.003215540530853249,33,7,
+41,11,green,pick up only the green cylinder,False,False,False,-0.0004121139645576477,no_contact_or_no_close,0.0032982824797084466,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0041_green.gif
+42,11,red,take hold of the red cylinder,True,False,True,0.012220008298754692,target_lift_success,0.0030174375120757086,31,7,
+43,11,yellow,lift the yellow cylinder,True,False,True,0.013607696630060673,target_lift_success,0.001535067056875117,32,8,
+44,11,blue,move to the blue cylinder and lift it,True,False,True,0.012396491132676601,target_lift_success,0.00312498887366564,28,7,
+45,12,blue,raise the blue cylinder,False,False,False,0.010063274763524532,no_contact_or_no_close,0.0016112401070806027,45,5,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0045_blue.gif
+46,12,green,pick up only the green cylinder,True,False,True,0.012297793291509151,target_lift_success,0.0006340306141454098,29,7,
+47,12,red,pick up the cylinder that is red,True,False,True,0.020730084739625454,target_lift_success,0.0035822767096503902,28,9,
+48,12,yellow,grasp and lift the yellow cylinder,False,False,False,0.00012050289660692215,no_contact_or_no_close,0.0009702753466633344,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0048_yellow.gif
+49,13,green,grasp and lift the green cylinder,True,False,True,0.012423835694789886,target_lift_success,0.0018354353230595544,29,7,
+50,13,blue,pick up the blue cylinder,True,False,True,0.013076228089630604,target_lift_success,0.0021928632004042385,39,7,
+51,13,yellow,pick up and hold the yellow cylinder,True,False,True,0.010017399676144123,target_lift_success,0.002209661638670118,45,5,
+52,13,red,move to the red cylinder and lift it,True,False,True,0.014049260877072811,target_lift_success,0.0028990119965613026,33,8,
+53,14,green,lift the green cylinder,False,False,False,0.00012050289660692215,no_contact_or_no_close,0.0024503119354732593,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0053_green.gif
+54,14,yellow,pick up the cylinder that is yellow,True,False,True,0.01213341485708952,target_lift_success,0.0011884910880309216,31,7,
+55,14,blue,grab and lift the blue cylinder,True,True,True,0.01293130312114954,target_lift_success,0.0014900758991926986,33,8,
+56,14,red,pick up and hold the red cylinder,True,False,True,0.012673596851527691,target_lift_success,0.0004942476101823649,29,8,
+57,15,blue,lift and hold the blue cylinder,True,False,True,0.011802292428910732,target_lift_success,0.0015814348737504408,29,7,
+58,15,yellow,pick up the yellow cylinder,True,False,True,0.012683303095400333,target_lift_success,0.001086790048717597,30,8,
+59,15,red,grasp the red cylinder,True,False,True,0.012325546704232693,target_lift_success,0.000551368429269959,32,7,
+60,15,green,pick up the cylinder that is green,True,False,True,0.012237082235515118,target_lift_success,0.0016486829886631377,33,7,
+61,16,blue,take hold of the blue cylinder,True,False,True,0.01224574912339449,target_lift_success,0.0014591398438393401,35,7,
+62,16,yellow,take hold of the yellow cylinder,True,False,True,0.012412715703248978,target_lift_success,0.0016943159127117654,26,7,
+63,16,green,lift the green cylinder,True,False,True,0.013385565020143986,target_lift_success,0.00022506241499424027,30,7,
+64,16,red,take hold of the red cylinder,True,False,True,0.012027885764837265,target_lift_success,0.00036623844966284576,28,7,
+65,17,red,lift the red cylinder without touching the others,False,True,False,0.0003535682335495949,wrong_touch_and_target_lift_fail,0.0010647346538904337,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0065_red.gif
+66,17,blue,lift and hold the blue cylinder,True,False,True,0.012265554629266262,target_lift_success,0.0006390814894334732,32,7,
+67,17,yellow,pick up the cylinder that is yellow,True,False,True,0.012646432034671307,target_lift_success,0.0003475033385607112,29,8,
+68,17,green,grab and lift the green cylinder,True,False,True,0.01362877432256937,target_lift_success,0.0024266869119659346,34,7,
+69,18,red,move to the red cylinder and lift it,True,False,True,0.012609829194843769,target_lift_success,0.0005128718690823966,35,7,
+70,18,blue,grasp only the blue cylinder,True,False,True,0.012568330392241478,target_lift_success,0.00037553888142693336,26,8,
+71,18,green,grasp only the green cylinder,True,False,True,0.012572193518280983,target_lift_success,0.002354548538314262,30,8,
+72,18,yellow,pick up only the yellow cylinder,False,False,False,0.00012050289660692215,no_contact_or_no_close,0.0029338493762557827,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0072_yellow.gif
+73,19,blue,raise the blue cylinder,False,False,False,-4.289858043193817e-05,no_contact_or_no_close,0.000726733805840585,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0073_blue.gif
+74,19,green,lift and hold the green cylinder,False,True,False,0.00012050289660692215,wrong_touch_and_target_lift_fail,0.007701632543249239,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0074_green.gif
+75,19,red,grab and lift the red cylinder,True,False,True,0.012323214672505856,target_lift_success,0.0011929507719501862,32,7,
+76,19,yellow,lift the yellow cylinder,True,False,True,0.012281456030905247,target_lift_success,0.002569637367650602,29,7,
+77,20,red,grasp only the red cylinder,False,True,False,0.00012050289660692215,wrong_touch_and_target_lift_fail,0.008556013914218601,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0077_red.gif
+78,20,green,lift and hold the green cylinder,True,False,True,0.01223538164049387,target_lift_success,0.0007233870752157623,32,7,
+79,20,blue,take hold of the blue cylinder,False,False,False,0.00012050289660692215,no_contact_or_no_close,0.0004489570348385883,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0079_blue.gif
+80,20,yellow,lift the yellow cylinder,True,False,True,0.012844554148614407,target_lift_success,0.0002068214491343672,31,8,
+81,21,blue,grab and lift the blue cylinder,True,False,True,0.013521363027393818,target_lift_success,0.0008279003637737358,31,7,
+82,21,green,raise the green cylinder,True,False,True,0.012352422811090946,target_lift_success,0.0006135352519535009,31,7,
+83,21,yellow,move to the yellow cylinder and lift it,True,False,True,0.012565781362354755,target_lift_success,0.0014741060937559802,27,8,
+84,21,red,take hold of the red cylinder,True,False,True,0.012309581972658634,target_lift_success,0.0014070157603996625,28,7,
+85,22,yellow,lift and hold the yellow cylinder,True,False,True,0.012235297821462154,target_lift_success,0.0030925762347126153,32,7,
+86,22,green,pick up the cylinder that is green,True,False,True,0.012266703881323338,target_lift_success,0.0008864666223861112,34,7,
+87,22,red,pick up the red cylinder,False,False,False,0.00012050289660692215,no_contact_or_no_close,0.0005260714874687662,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0087_red.gif
+88,22,blue,grasp and lift the blue cylinder,True,True,True,0.012727461755275726,target_lift_success,0.0009744198343192004,33,7,
+89,23,green,pick up the cylinder that is green,True,False,True,0.011963686905801296,target_lift_success,0.0015157316446431806,29,8,
+90,23,yellow,grab the yellow cylinder,True,False,True,0.012132293544709682,target_lift_success,0.0015821001196536454,30,7,
+91,23,blue,lift the blue cylinder,True,False,True,0.012210948392748833,target_lift_success,0.0005798853773384416,28,8,
+92,23,red,raise the red cylinder,True,False,True,0.012302259914577007,target_lift_success,0.0011724675291623701,30,7,
+93,24,yellow,raise the yellow cylinder,True,False,True,0.012904183007776737,target_lift_success,0.00045684334135905573,32,7,
+94,24,green,grasp the green cylinder,False,False,True,0.0008271140977740288,contact_but_lift_fail,0.0026259749643441307,32,6,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0094_green.gif
+95,24,red,grab and lift the red cylinder,True,False,True,0.012322469614446163,target_lift_success,0.0014436440048401326,28,7,
+96,24,blue,take hold of the blue cylinder,False,False,False,0.00012050289660692215,no_contact_or_no_close,0.002780590438874846,,0,/data/biy/Raccoonbot_Openvla/reports/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs/v11_initial_lift_close_1200_b8ga2_15000_rollout100_failgifs_episode_0096_blue.gif
+97,25,yellow,raise the yellow cylinder,True,False,True,0.012697291560471058,target_lift_success,0.0013653635790384295,29,8,
+98,25,blue,take hold of the blue cylinder,True,False,True,0.011951697058975697,target_lift_success,0.0010088383300480887,28,7,
+99,25,green,grasp the green cylinder,True,False,True,0.01236545480787754,target_lift_success,0.0004202552860184669,31,7,
+100,25,red,pick up only the red cylinder,True,False,True,0.012337015010416508,target_lift_success,1.7589411794542476e-05,27,7,

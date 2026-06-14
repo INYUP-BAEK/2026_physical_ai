@@ -1,0 +1,5 @@
+episode_index,scene_id,target_color,instruction,num_steps,exception,ever_contact_success,ever_strict_lift_success,final_contact_success,final_strict_lift_success,ever_wrong_color_touch,target_lift_delta_final,first_contact_step,first_strict_lift_step,final_touching_colors
+1,1,yellow,grasp only the yellow cylinder,35,,True,True,True,True,False,0.01224939338862896,28,32,"[""yellow""]"
+2,1,red,grasp the red cylinder,35,,True,True,True,True,False,0.012235167436301708,27,32,"[""red""]"
+3,1,green,grab the green cylinder,37,,True,True,True,True,False,0.012120424769818783,30,34,"[""green""]"
+4,1,blue,take hold of the blue cylinder,39,,True,True,True,True,False,0.012157068587839603,32,36,"[""blue""]"

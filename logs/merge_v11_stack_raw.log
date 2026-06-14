@@ -1,0 +1,6 @@
+BASE_RAW_ROOT=/data/biy/Raccoonbot_Openvla/Mujoco/raccoon_grasp_v10_lift_immediate_1200
+STACK_RAW_ROOT=/data/biy/Raccoonbot_Openvla/Mujoco/raccoon_stack_v11_extension_120
+OUT_ROOT=/data/biy/Raccoonbot_Openvla/Mujoco/raccoon_grasp_v11_plus_stack_raw
+COPY_MODE=hardlink
+merged successful episodes: 1320
+output root: /data/biy/Raccoonbot_Openvla/Mujoco/raccoon_grasp_v11_plus_stack_raw

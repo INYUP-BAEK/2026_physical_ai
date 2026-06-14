@@ -1,0 +1,80 @@
+{
+  "num_rollouts": 32,
+  "ever_contact_success_count": 26,
+  "ever_contact_success_rate": 0.8125,
+  "ever_strict_lift_success_count": 25,
+  "ever_strict_lift_success_rate": 0.78125,
+  "final_contact_success_count": 26,
+  "final_contact_success_rate": 0.8125,
+  "final_strict_lift_success_count": 25,
+  "final_strict_lift_success_rate": 0.78125,
+  "wrong_color_touch_count": 2,
+  "wrong_color_touch_rate": 0.0625,
+  "exception_count": 0,
+  "mean_final_lift_delta": 0.01001445333531592,
+  "median_final_lift_delta": 0.012259416747838259,
+  "mean_steps": 41.03125,
+  "by_color": {
+    "blue": {
+      "n": 8,
+      "ever_contact_success_rate": 0.75,
+      "ever_strict_lift_success_rate": 0.75,
+      "final_strict_lift_success_rate": 0.75,
+      "wrong_color_touch_rate": 0.125,
+      "mean_final_lift_delta": 0.009439543588086963
+    },
+    "green": {
+      "n": 8,
+      "ever_contact_success_rate": 0.875,
+      "ever_strict_lift_success_rate": 0.75,
+      "final_strict_lift_success_rate": 0.75,
+      "wrong_color_touch_rate": 0.0,
+      "mean_final_lift_delta": 0.010231796652078629
+    },
+    "red": {
+      "n": 8,
+      "ever_contact_success_rate": 0.625,
+      "ever_strict_lift_success_rate": 0.625,
+      "final_strict_lift_success_rate": 0.625,
+      "wrong_color_touch_rate": 0.125,
+      "mean_final_lift_delta": 0.007835392781998962
+    },
+    "yellow": {
+      "n": 8,
+      "ever_contact_success_rate": 1.0,
+      "ever_strict_lift_success_rate": 1.0,
+      "final_strict_lift_success_rate": 1.0,
+      "wrong_color_touch_rate": 0.0,
+      "mean_final_lift_delta": 0.012551080319099128
+    }
+  },
+  "instruction_counts": {
+    "grasp only the yellow cylinder": 1,
+    "grasp the red cylinder": 2,
+    "grab the green cylinder": 3,
+    "take hold of the blue cylinder": 1,
+    "pick up and hold the blue cylinder": 1,
+    "lift the yellow cylinder": 2,
+    "grasp and lift the yellow cylinder": 1,
+    "pick up only the red cylinder": 1,
+    "raise the green cylinder": 1,
+    "move to the blue cylinder and lift it": 1,
+    "grab and lift the yellow cylinder": 1,
+    "grab the blue cylinder": 2,
+    "take hold of the red cylinder": 1,
+    "pick up the green cylinder": 1,
+    "lift the green cylinder without touching the others": 1,
+    "pick up only the yellow cylinder": 1,
+    "lift and hold the red cylinder": 1,
+    "pick up the cylinder that is blue": 1,
+    "grasp and lift the red cylinder": 1,
+    "lift the yellow cylinder without touching the others": 1,
+    "pick up the blue cylinder": 1,
+    "move to the red cylinder and lift it": 1,
+    "grab and lift the green cylinder": 1,
+    "take hold of the yellow cylinder": 1,
+    "pick up only the green cylinder": 1,
+    "lift the blue cylinder without touching the others": 1,
+    "pick up the cylinder that is red": 1
+  }
+}
