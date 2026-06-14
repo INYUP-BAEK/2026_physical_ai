@@ -35,12 +35,19 @@ MuJoCo closed-loop rollout 결과입니다.
 | 32 rollout strict lift 성공 | 25/32 |
 | 32 rollout wrong-color touch | 2/32 |
 
-대표 시각화 자료는 다음 위치에 남겼습니다.
+대표 rollout GIF와 결과 그래프입니다.
 
-```text
-reports/v11_initial_lift_close_1200_b8ga2_15000_gif4/
-reports/v11_final_baseline_assets/
-```
+![V11 Lift yellow rollout](reports/v11_initial_lift_close_1200_b8ga2_15000_gif4/v11_initial_lift_close_1200_b8ga2_15000_gif4_episode_0001_yellow.gif)
+
+![V11 Lift red rollout](reports/v11_initial_lift_close_1200_b8ga2_15000_gif4/v11_initial_lift_close_1200_b8ga2_15000_gif4_episode_0002_red.gif)
+
+![V11 Lift green rollout](reports/v11_initial_lift_close_1200_b8ga2_15000_gif4/v11_initial_lift_close_1200_b8ga2_15000_gif4_episode_0003_green.gif)
+
+![V11 Lift blue rollout](reports/v11_initial_lift_close_1200_b8ga2_15000_gif4/v11_initial_lift_close_1200_b8ga2_15000_gif4_episode_0004_blue.gif)
+
+![V11 Lift 100 rollout outcome categories](reports/v11_final_baseline_assets/v11_rollout100_outcome_categories.png)
+
+![V11 Lift 100 rollout by color](reports/v11_final_baseline_assets/v11_rollout100_by_color.png)
 
 ### V11+Stack
 
@@ -59,12 +66,19 @@ MuJoCo closed-loop rollout 결과입니다.
 | stack command source lift 성공 | 9/12 |
 | stack command final gripper open | 7/12 |
 
-대표 시각화 자료는 다음 위치에 남겼습니다.
+대표 stack rollout GIF와 실패 분석 GIF입니다.
 
-```text
-reports/v11_plus_stack_20000_stack_gif4/
-reports/v11_plus_stack_20000_lift_failgifs32/
-```
+![V11+Stack red on blue rollout](reports/v11_plus_stack_20000_stack_gif4/v11_plus_stack_20000_stack_gif4_episode_0001_red_on_blue.gif)
+
+![V11+Stack red on yellow rollout](reports/v11_plus_stack_20000_stack_gif4/v11_plus_stack_20000_stack_gif4_episode_0002_red_on_yellow.gif)
+
+![V11+Stack yellow on blue rollout](reports/v11_plus_stack_20000_stack_gif4/v11_plus_stack_20000_stack_gif4_episode_0003_yellow_on_blue.gif)
+
+![V11+Stack blue on yellow rollout](reports/v11_plus_stack_20000_stack_gif4/v11_plus_stack_20000_stack_gif4_episode_0004_blue_on_yellow.gif)
+
+![V11+Stack lift failure example green](reports/v11_plus_stack_20000_lift_failgifs32/v11_plus_stack_20000_lift_failgifs32_episode_0003_green.gif)
+
+![V11+Stack lift failure example red](reports/v11_plus_stack_20000_lift_failgifs32/v11_plus_stack_20000_lift_failgifs32_episode_0015_red.gif)
 
 ## 실제 로봇 데모
 
